@@ -11,11 +11,16 @@ Estou seguindo o roteiro do livro
 de Brian P. Hogan (Pragmatic Programmers, 2020), doravante abreviado para BWH.
 
 Optei por esse livro em vez da documentação oficial porque o autor mostra
-a construção de um site com `hugo` desde o zero, sem usar nenhum tema pronto.
+a construção de um site com Hugo desde o zero, sem usar nenhum tema pronto.
 
-Imaginei que assim teria um entendimento melhor de como o `hugo` funciona
-essencialmente, sem o ruído de um tema com centenas ou milhares de linhas de código.
+Brian Hogan escreveu na p. 15 de BWH:
 
+> Many off-the-shelf themes are fairly complex with lots of features
+> that take time to configure properly.
+> It’s best to understand how theming works before you dive into someone else’s code.
+
+
+### Notas
 
 ### Primeiro passo
 
@@ -36,15 +41,13 @@ Just a few more steps...
 See documentation at https://gohugo.io/.
 ```
 
-### Notas
-
 #### Arquivo de configuração
 
 * `hugo new site blog` agora cria um `hugo.toml` e não `config.toml`;
 o nome mudou na versão 
 ([v0.110.0](https://github.com/gohugoio/hugo/releases/tag/v0.110.0))
 
-#### Aviso sobre layout faltando
+### Aviso sobre layout faltando
 
 * Depois de criar `layouts/index.html` e `content/_index.md`, rodei
 `hugo server` mas recebi um aviso:
@@ -76,7 +79,7 @@ Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
 Press Ctrl+C to stop
 ```
 
-#### O layout `single.html` 
+### O layout `single.html` 
 
 BWH, p.10, manda criar `layouts/_default/single.html`.
 
@@ -85,3 +88,15 @@ o arquivo com o nome `simples.html` também funcionou,
 talvez porque fosse o único arquivo em `layouts/_default/`.
 Será?
 
+### Tema mínimo
+
+BWH, p. 25:
+
+> A basic Hugo theme only needs these files:
+```
+layouts
+├── _default
+│ ├── list.html
+│ └── single.html
+└─── index.html
+```
