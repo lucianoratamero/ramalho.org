@@ -1,4 +1,5 @@
 baseURL = 'https://example.org/'
 languageCode = 'pt-br'
 title = 'Blog do Ramalho'
+theme = 'basico'
 
