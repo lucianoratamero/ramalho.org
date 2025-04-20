@@ -1,6 +1,7 @@
-# Este é o modelo de .gitgnore usado pelo Github por padrão para
-# projetos escritos em Python.
-# Uso em todos os meus projetos que tem código Python. --LR 
+# Hugo
+public/
+resources/_gen/
+.hugo_build.lock
 
 # MacOS folder metadata
 .DS_Store
