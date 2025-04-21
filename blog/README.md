@@ -141,7 +141,7 @@ aspiradores de conteúdo para IA
 Rodando o servidor no **terminal 1**, posso acessar o RSS
 da raiz do site pelo **terminal 2**:
 
-```
+```xml
 % curl http://localhost:1313/index.xml
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
@@ -159,7 +159,7 @@ da raiz do site pelo **terminal 2**:
 
 E o mapa do site:
 
-```
+```xml
 % curl http://localhost:1313/sitemap.xml
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -187,10 +187,14 @@ Cada um desses caminhos tem um RSS em sua raiz.
 
 Com base na minha experiência com sites de conteúdo
 e meus estudos em biblioteconomia, imagino que
-`categories` pode formar uma taxonomia hieraráquica
-de temas e sub-temas, enquanto `tags` provalmente
-é uma lista plana (somente um nível), como uma
-classificação independente (ortogonal).
+`categories` pode formar uma taxonomia
+de temas com um *vocabulário controlado*—um conjunto
+de termos pré-estabelecido, como "jogos", "programação" etc.
+
+Por outro lado, `tags` costuma ser uma
+[folksonomia](https://pt.wikipedia.org/wiki/Folksonomia)
+uma lista livre de termos independente das categorias,
+sem um vocabulário controlado.
 
 Será que estou certo?
 
@@ -203,7 +207,7 @@ Content "/Users/luciano/prj/ramalho.org/blog/content/oi.md" created
 
 Hugo escreveu o seguinte em `oi.md`:
 
-```
+```toml
 +++
 date = '2025-04-21T17:57:30-03:00'
 draft = true
@@ -217,12 +221,77 @@ na documentação do Hugo. O Hugo suporta sintaxe JSON, YAML e TOML
 para os metadados.
 TOML é o formato padrão, indicado pelos delimitadores `+++`.
 
+Alterei o campo `draft` para `false` para que a página seja gerada.
+
+```toml
++++
+date = '2025-04-21T17:57:30-03:00'
+draft = true
+title = 'Oi'
++++
+```
+
 Escrevi qualquer coisa abaixo dos `+++` para poder acessar depois.
 
-Gerando o site com o comando `hugo`, percebo que nada mudou nos XML
-que já vimos, e nenhum arquivo novo foi gerado em `/public`.
+Gerando o site com o comando `hugo`, 
+percebo que nenhum arquivo novo foi gerado em `/public`,
+e os RSS `index.html` em `categories` e `tags` não mudaram.
 
-Agora tenho duas opções: editar o `hugo.toml` ou criar um tema.
+Mas o RSS `/index.xml` agora inclui a página `oi`:
+
+```xml
+% curl http://localhost:1313/index.xml
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Apr 2025 17:57:30 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Oi</title>
+      <link>http://localhost:1313/oi/</link>
+      <pubDate>Mon, 21 Apr 2025 17:57:30 -0300</pubDate>
+      <guid>http://localhost:1313/oi/</guid>
+      <description>&lt;p&gt;&amp;ldquo;Olá, mundo!&amp;rdquo;, já diziam os antigos.&lt;/p&gt;&#xA;&lt;p&gt;Este é o primeiro conteúdo deste sítio.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
+```
+
+E ela também aparece no `sitemap.xml`:
+
+```xml
+% curl http://localhost:1313/index.xml
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-04-21T17:57:30-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/oi/</loc>
+    <lastmod>2025-04-21T17:57:30-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url>
+</urlset>
+```
+
+Porém, o caminho `/oi` ainda não está acessível:
+
+```
+% curl http://localhost:1313/oi/
+<h1>Page Not Found</h1>
+```
+
+Imagino que o motivo é a falta de um template,
+um modelo de página em geral definido em um tema.
 
 ### Criei o tema basico
 
@@ -302,4 +371,28 @@ Nenhum arquivo fora de `themes/basico` é modificado pelo comando.
 26 directories, 31 files
 %
 ```
+
+
+
+### Editei a configuração do site
+
+Hugo criou o arquivo de configuração `blog/hugo.toml` assim:
+
+```
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+```
+
+Nova configuração, com uma taxonomia baseada em tags:
+
+```
+baseURL = 'https://ramalho.org/'
+languageCode = 'pt-BR'
+title = 'Blog do Ramalho.org'
+[taxonomies]
+  tag = 'tags'
+```
+
+Fonte: https://gohugo.io/content-management/front-matter/#taxonomies.
 
