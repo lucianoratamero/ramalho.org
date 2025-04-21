@@ -1,4 +1,6 @@
 baseURL = 'https://example.org/'
-languageCode = 'pt-br'
+languageCode = 'pt-BR'
 title = 'Blog do Ramalho'
+theme = 'basico'
+removePathAccents = true
 
