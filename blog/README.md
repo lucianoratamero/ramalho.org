@@ -309,69 +309,52 @@ Isso cria um diretório `themes/basico` com vários subdiretórios e arquivos.
 Nenhum arquivo fora de `themes/basico` é modificado pelo comando.
 
 ```
-% tree
-.
-├── README.md
-├── archetypes
-│   └── default.md
-├── assets
-├── content
-├── data
-├── hugo.toml
-├── i18n
-├── layouts
-├── public
-│   ├── categories
-│   │   └── index.xml
-│   ├── index.xml
-│   ├── sitemap.xml
-│   └── tags
-│       └── index.xml
-├── static
-└── themes
-    └── basico
-        ├── archetypes
-        │   └── default.md
-        ├── assets
-        │   ├── css
-        │   │   └── main.css
-        │   └── js
-        │       └── main.js
-        ├── content
-        │   ├── _index.md
-        │   └── posts
-        │       ├── _index.md
-        │       ├── post-1.md
-        │       ├── post-2.md
-        │       └── post-3
-        │           ├── bryce-canyon.jpg
-        │           └── index.md
-        ├── data
-        ├── hugo.toml
-        ├── i18n
-        ├── layouts
-        │   ├── _partials
-        │   │   ├── footer.html
-        │   │   ├── head
-        │   │   │   ├── css.html
-        │   │   │   └── js.html
-        │   │   ├── head.html
-        │   │   ├── header.html
-        │   │   ├── menu.html
-        │   │   └── terms.html
-        │   ├── baseof.html
-        │   ├── home.html
-        │   ├── list.html
-        │   ├── single.html
-        │   ├── taxonomy.html
-        │   └── term.html
-        └── static
-            └── favicon.ico
+% tree themes 
+themes
+└── basico
+    ├── archetypes
+    │   └── default.md
+    ├── assets
+    │   ├── css
+    │   │   └── main.css
+    │   └── js
+    │       └── main.js
+    ├── content
+    │   ├── _index.md
+    │   └── posts
+    │       ├── _index.md
+    │       ├── post-1.md
+    │       ├── post-2.md
+    │       └── post-3
+    │           ├── bryce-canyon.jpg
+    │           └── index.md
+    ├── data
+    ├── hugo.toml
+    ├── i18n
+    ├── layouts
+    │   ├── _partials
+    │   │   ├── footer.html
+    │   │   ├── head
+    │   │   │   ├── css.html
+    │   │   │   └── js.html
+    │   │   ├── head.html
+    │   │   ├── header.html
+    │   │   ├── menu.html
+    │   │   └── terms.html
+    │   ├── baseof.html
+    │   ├── home.html
+    │   ├── list.html
+    │   ├── single.html
+    │   ├── taxonomy.html
+    │   └── term.html
+    └── static
+        └── favicon.ico
 
-26 directories, 31 files
-%
+15 directories, 24 files
+
 ```
 
+Para ativar o tema, preciso editar a configuração.
 
 
 ### Editei a configuração do site
@@ -384,15 +367,39 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 ```
 
-Nova configuração, com uma taxonomia baseada em tags:
+Nova configuração:
 
 ```
 baseURL = 'https://ramalho.org/'
 languageCode = 'pt-BR'
 title = 'Blog do Ramalho.org'
-[taxonomies]
-  tag = 'tags'
+theme = 'basico'
 ```
 
-Fonte: https://gohugo.io/content-management/front-matter/#taxonomies.
+Agora o comando `hugo` informa 19 páginas criadas!
+
+```
+                   | EN  
+-------------------+-----
+  Pages            | 19  
+  Paginator pages  |  0  
+  Non-page files   |  1  
+  Static files     |  1  
+  Processed images |  0  
+  Aliases          |  0  
+  Cleaned          |  0  
+```
+
+Agora já é possível navegar pelo blog!
+
+<img src="home-1.png" alt="página inicial do blog" width="400"/>
+
+Além da página `oi` temos também `post-1`, `post-2` e `post-3`, que
+foram gerados pelo Hugo no diretório `/themes/basico/content/posts/`.
+
+A próxima missão é entender a lógica da página inicial `/`: como definir quais conteúdos aparecem aqui? No momento estão misturados os posts do tema e o meu post.
+
+## Referências
+
+* [Front-matter and taxonomies](https://gohugo.io/content-management/front-matter/#taxonomies)
 
