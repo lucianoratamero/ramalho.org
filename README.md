@@ -1,4 +1,4 @@
-# DIÁRIO DA CONSTRUÇÃO DESTE BLOG
+# Diário da construção deste blog
 
 ## Primeiros passos
 
