@@ -33,7 +33,7 @@ o primeiro [hackerspace](https://pt.wikipedia.org/wiki/Hackerspace) do Brasil (2
 o primeiro portal de informações da Abril S/A (1994-1996).
 As principais linguagens eram Perl, PHP/FI, e JavaScript.
 Também usamos Java no servidor em um serviço, mas nunca no navegador.
-[Pergunte-me porquê.](posts/applets/)
+[Pergunte-me porquê.](/posts/applets/)
 
 * Líder técnico do CD-ROM infantil interativo "A Turma da Cozinha",
 baseado em estória de Marta de Mello e Souza, produzido por Guto Carvalho,
