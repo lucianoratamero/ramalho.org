@@ -2,3 +2,9 @@ baseURL = 'https://ramalho.org/'
 languageCode = 'pt-BR'
 title = 'Blog do Ramalho.org'
 theme = 'basico'
+
+[markup.goldmark.renderHooks.image]
+enableDefault = true
+
+[markup.goldmark.renderHooks.link]
+enableDefault = true
