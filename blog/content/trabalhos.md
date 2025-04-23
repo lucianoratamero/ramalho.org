@@ -32,8 +32,8 @@ o primeiro [hackerspace](https://pt.wikipedia.org/wiki/Hackerspace) do Brasil (2
 * Diretor técnico do Brasil Online (bol.com.br),
 o primeiro portal de informações da Abril S/A (1994-1996).
 As principais linguagens eram Perl, PHP/FI, e JavaScript.
-Também usamos Java no servidor, mas nunca no navegador.
-Pergunte-me porquê!
+Também usamos Java no servidor em um serviço, mas nunca no navegador.
+[Pergunte-me porquê.](posts/applets/)
 
 * Líder técnico do CD-ROM infantil interativo "A Turma da Cozinha",
 baseado em estória de Marta de Mello e Souza, produzido por Guto Carvalho,
@@ -42,18 +42,21 @@ O CD-ROM foi feito em MacroMedia Director, programado em Lingo.
 
 * Colunista regular nas revistas Macmania e Info Exame na década de 1990.
 
-* Desenvolvedor dos aplicativos educacionais "Terminologia Médico-Cirúrgica" e "Introdução ao Micro",
-no Programa Informática e Educação do SENAC-SP, liderado por Carlos Seabra. Os aplicativos foram escritos
-em AppleSoft Basic com o TakeOne Toolkit (primeira fase),
-depois em Turbo Pascal com uma biblioteca para manipular bitmaps PCX.
+* Desenvolvedor dos aplicativos educacionais "Terminologia Médico-Cirúrgica" (para Apple II)
+e "Introdução ao Micro" (para Apple II e IBM-PC)
+no Programa Informática e Educação do SENAC-SP, liderado por Carlos Seabra.
+Os aplicativos para Apple foram escritos
+em AppleSoft Basic com o TakeOne Toolkit.
+No PC, usei Turbo Pascal com uma biblioteca para manipular bitmaps PCX.
 
 * Instrutor de programação desde 1983 (como autônomo ou funcionário do SENAC-SP).
 
-* Co-autor da peça "The Time Has Come", com Paulo M. R. Camargo, premiada nos concursos de teatro amador da Cultura Inglesa e do São Paulo Athetic Club.
+* Co-autor da peça "The Time Has Come", com Paulo M. R. Camargo, vencedora dos concursos de teatro amador da Cultura Inglesa e do São Paulo Athetic Club.
 
 * Associado da Elo de Amadores de Jogos, clube de jogos de mesa criado por Mario Seabra, que funcionou entre 1978 e 1981.
 
-* Programador auto-didata desde 1978. Meu primeiro computador foi uma calculadora TI-58.
-Meu primeiro programa interessante foi portar o jogo Alunissagem da HP-25 para a TI-58.
+* Programador auto-didata desde 1978.
+Meu primeiro computador foi uma calculadora programável TI-58 emprestada do meu pai.
+Meu primeiro programa interessante foi portar o jogo [Alunissagem](https://www.hpmuseum.org/software/25moonld.htm) do manual da HP-25 para a TI-58.
 
 * Inventor (amador) de jogos de tabuleiro desde 1977.
