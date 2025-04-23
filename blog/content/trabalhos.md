@@ -19,6 +19,8 @@ em https://pythonfluente.com.
 * Líder técnico na [BIREME/OPAS/OMS](https://www.paho.org/pt/bireme) (2009-2012).
 
 * Bacharel em Biblioteconomia pela Escola de Comunicações e Artes da USP (2011).
+Transformei meu trabalho de conclusão de curso neste artigo:
+[From ISIS to CouchDB: Databases and Data Models for Bibliographic Records](https://journal.code4lib.org/articles/4893).
 
 * Co-fundador do [Garoa Hacker Clube](https://garoa.net.br/wiki/Garoa_Hacker_Clube:Sobre),
 o primeiro [hackerspace](https://pt.wikipedia.org/wiki/Hackerspace) do Brasil (2010).

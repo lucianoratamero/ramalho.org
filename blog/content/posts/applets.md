@@ -1,7 +1,7 @@
 +++
 date = '2025-04-23T00:19:50-03:00'
 draft = false
-title = 'Porque Java applets morreram'
+title = 'O erro fatal das applets Java'
 tags = ['tecnologia']
 +++
 
@@ -21,7 +21,7 @@ Realmente, elas demoravam para carregar e começar a funcionar.
 Só que em 1995, tudo era muito lento na Web:
 até carregar GIFs demorava.
 Usávamos modems discados com banda de 28.8 Kbps
-(hoje uma banda larga comum de 300 Mbs é 10.000 mais rápida).
+(hoje uma banda larga comum de 300 Mbs é 10417 vezes mais rápida).
 
 Na real, o que inviabilizou usar applets no BOL não foi a lentidão.
 
