@@ -4,10 +4,13 @@ date = 2023-01-01T08:00:00-07:00
 draft = false
 +++
 
-Início do conteúdo de `/themes/basico/content/_index.md`.
+<!-- begin src: /themes/basico/content/_index.md -->
 
-Laborum voluptate pariatur ex culpa magna nostrud est incididunt fugiat
-pariatur do dolor ipsum enim. Consequat tempor do dolor eu. Non id id anim anim
-excepteur excepteur pariatur nostrud qui irure ullamco.
+Este é o blog de [Luciano Ramalho](/tags/bio/), programador-repentista
+e autor do livro [Python Fluente](https://pythonfluente.com).
 
-Fim do conteúdo de `/themes/basico/content/_index.md`.
+| GitHub |┃| Mastodon |┃| Bluesky |┃| LinkedIn |
+|--------|-|----------|-|---------|-|----------|
+| [@ramalho](https://github.com/ramalho) |┃| [@ciberlandia.pt@lr](https://ciberlandia.pt/@lr/) |┃| [@ramalho.org](https://bsky.app/profile/ramalho.org) |┃| [@lucianoramalho](https://www.linkedin.com/in/lucianoramalho/) |
+
+<!-- end src: /themes/basico/content/_index.md -->
