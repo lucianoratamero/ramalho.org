@@ -4,5 +4,7 @@
   {{ range $section.RegularPages }}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     {{ .Summary }}
-  {{ end }}
+    {{ if .Truncated }}
+    <a href="{{ .RelPermalink }}">continua...</a>
+  {{ end }}  {{ end }}
 {{ end }}
