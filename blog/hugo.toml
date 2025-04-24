@@ -3,8 +3,15 @@ languageCode = 'pt-BR'
 title = 'Blog do Ramalho.org'
 theme = 'basico'
 
-[markup.goldmark.renderHooks.image]
-enableDefault = true
 
-[markup.goldmark.renderHooks.link]
-enableDefault = true
+[markup.goldmark.renderer]
+    unsafe = true
+
+[markup.goldmark.renderHooks]
+    image.enableDefault = true
+    link.enableDefault = true
+
+# layout parameters
+
+[params]
+width = "760px"

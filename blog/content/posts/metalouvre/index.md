@@ -5,7 +5,8 @@ title = 'O grande ataque ao MetaLouvre'
 tags = ['ficção', 'tecnologia', 'criptoativos']
 +++
 
-![Turistas fotografando a moldura da Mona Lisa, com o emoji "FACE SCREAMING IN FEAR" no lugar da pintura de Leonardo Da Vinci](metalouvre-grito.jpg)
+<img src="/posts/metalouvre/metalouvre-grito.jpg" width="{{< width >}}"
+alt="Turistas fotografando a moldura da Mona Lisa, com o emoji 'FACE SCREAMING IN FEAR' no lugar da pintura de Leonardo Da Vinci">
 
 Após enfrentar longas filas para entrar no MetaLouvre,
 turistas do Metaverso ficaram chocados quando viram
@@ -60,3 +61,4 @@ graças à natureza imutável da blockchain, protegida pela matemática.
 [My first impressions of web3](https://moxie.org/2022/01/07/web3-first-impressions.html)
 de Moxie Marlinspike, detalhando as limitações da tecnologia NFT.
 Ele é criptógrafo co-criador aplicativo de mensagens criptografadas Signal e seu protocolo criptográfico.
+Vale muito a pena ler este post, uma análise estratégica profunda do eco-sistema Web3.
