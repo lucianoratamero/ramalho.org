@@ -26,11 +26,11 @@ Os NFTs são armazenadas permanentemente no blockchain, protegidas pela matemát
 No entanto, os gêmeos digitais das pinturas não estavam armazenadas no blockchain,
 porque adicionar megabytes ao blockchain seria caro demais e
 agravaria os conhecidos problemas de escalabilidade desta tecnologia.
-A solução oferecida pelos vendedores de NFTs era registrar só a URL de cada imagem no blockchain.
-Por exemplo, a URL armazenada na NFT da Mona Lisa era `https://safevault.eth/metalouvre/Mona_Lisa_8K-3109372.jpg`
+A solução oferecida pelos criadores de NFTs é registrar só a URL de cada imagem no blockchain.
+Por exemplo, a URL armazenada na NFT da Mona Lisa é `https://safevault.eth/metalouvre/Mona_Lisa_8K-3109372.jpg`
 (link quebrado, explicação a seguir).
 
-O que os curadores do MetaLouvre não sabiam era que, por padrão, os NFTs não continham
+O que os curadores do MetaLouvre não sabiam era que, por norma, os NFTs não contém
 uma assinatura digital do conteúdo do arquivo, uma precaução básica para detectar adulterações no conteúdo supostamente protegido pelos certificados digitais.
 Quando os servidores da SafeVault foram invadidos,
 os hackers substituíram as imagens das pinturas renascentistas por emojis,
