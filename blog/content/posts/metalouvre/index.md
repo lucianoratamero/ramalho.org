@@ -58,5 +58,4 @@ graças à natureza imutável da blockchain, protegida pela matemática.
 > Esta fábula foi inspirada no texto
 [My first impressions of web3](https://moxie.org/2022/01/07/web3-first-impressions.html)
 de Moxie Marlinspike, detalhando as limitações da tecnologia NFT.
-Moxie Marlinspike é o criptógrafo, pesquisador de segurança de computadores,
-e co-criador do protocolo Signal e do aplicativo de mensagens criptografadas.
+Ele é criptógrafo co-criador aplicativo de mensagens criptografadas Signal e seu protocolo criptográfico.
