@@ -5,6 +5,8 @@ title = 'Trabalhos'
 tags = ['bio']
 +++
 
+Veja a [mini-biografia](content/minibio/) (≈40 palavras, com foto).
+
 Algumas coisas que fiz:
 
 * Autor de

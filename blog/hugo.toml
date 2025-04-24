@@ -3,7 +3,6 @@ languageCode = 'pt-BR'
 title = 'Blog do Ramalho.org'
 theme = 'basico'
 
-
 [markup.goldmark.renderer]
     unsafe = true
 
