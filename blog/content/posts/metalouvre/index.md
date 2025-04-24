@@ -37,7 +37,7 @@ os hackers substituíram as imagens das pinturas renascentistas por emojis,
 mas não havia dados na blockchain para prevenir ou mesmo detectar tal ataque.
 
 Os operadores da SafeVault recuperaram os arquivos originais de um backup,
-então as pinturas originais voltaram a aparecer no MetaLouvre algumas horas depois.
+então as pinturas voltaram a aparecer no MetaLouvre algumas horas depois.
 Mas o dano à reputação foi fatal para uma empresa que prometia hospedagem segura de objetos do Metaverso.
 
 Quatro meses após o ataque ao acervo digital do MetaLouvre, a SafeVault faliu.
@@ -49,7 +49,7 @@ Sem a chave privada, ninguém poderia transferir o domínio para um novo proprie
 Quando a SafeVault encerrou suas operações,
 havia 128.561 NFTs apontando para URLs em `safevault.eth`, com um valor total estimado em 1,3 bilhão de dólares.
 Cada um desses NFTs se tornou inútil quando o domínio `safevault.eth` expirou em dezembro de 2023,
-porque suas URLs apontavam para um domínio desconfigurado que jamais poderia ser recuperado.
+porque suas URLs permanentes apontavam para um domínio desconfigurado que jamais poderia ser recuperado.
 
 As consequências de longo prazo do ataque ao acervo digital do MetaLouvre nunca serão corrigidas,
 graças à natureza imutável da blockchain, protegida pela matemática.

@@ -59,3 +59,5 @@ Quantos bilhões a falta de um simples `BGCOLOR` pode ter custado para a Sun e p
 Se fosse possível pintar o espaço da applet de qualquer cor antes de carregar,
 talvez o Java no navegador tivesse durado muito mais,
 e o [Flash](https://pt.wikipedia.org/wiki/Adobe_Flash) nem tivesse existido.
+
+Por isso é importante ter pessoas com diferentes talentos em times de tecnologia.
