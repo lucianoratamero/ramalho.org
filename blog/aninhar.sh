@@ -3,7 +3,7 @@ set -e  # exit when any command fails
 
 # Check if required arguments are provided
 if [ "$#" -ne 1 ]; then
-    echo "Usage: $0 <file_path>"
+    echo "Modo de usar: $0 <file_path>"
     exit 1
 fi
 

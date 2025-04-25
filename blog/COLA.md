@@ -11,15 +11,24 @@ hugo new content/posts/banana.md
 Bom para colocar as imagens no mesmo diretório do texto.
 
 ```shell
-./aninhar.sh banana  # sem a extensão .md
+$ ./aninhar.sh content/posts/banana.md
 ```
 
-O resultado fica em `content/posts/`:
+O texto é movido para `content/posts/banana/index.md`:
 
 ```
-posts
-└── banana
-    └── index.md
+$ tree content
+content
+├── posts
+│   ├── banana
+│   │   ├── index.md
+│   │   └── (futura imagem aqui)
+┆   ┆
 ```
 
+Aninhar não muda a URL da página, continua sendo:
+
+```
+https://ramalho.org/posts/banana/
+```
 
