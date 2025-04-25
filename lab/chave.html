@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Light/Dark Mode Toggle</title>
+  <title>Alternador de Tema Claro/Escuro</title>
   <style>
     :root {
       --background-color: #ffffff;
@@ -95,9 +95,9 @@
 </head>
 <body>
   <div class="container">
-    <h1>Light/Dark Mode Toggle</h1>
+    <h1>Alternador de Tema</h1>
     <div style="display: flex; align-items: center;">
-      <span class="theme-label">Toggle theme:</span>
+      <span class="theme-label">claro | escuro</span>
       <label class="toggle-switch">
         <input type="checkbox" id="theme-toggle">
         <span class="slider"></span>
@@ -106,14 +106,14 @@
   </div>
 
   <div class="content">
-    <p>This is a simple example of a light/dark mode toggle using HTML, CSS, and a bit of JavaScript. The toggle switch above changes the theme of this page.</p>
-    <p>The implementation uses CSS custom properties (variables) to make it easy to switch between theme colors. When the dark mode is active, we simply change the values of these variables.</p>
+    <p>Este é um exemplo simples de um alternador de tema claro/escuro usando HTML, CSS e um pouco de JavaScript. A chave acima muda o tema desta página.</p>
+    <p>A implementação usa propriedades customizadas do CSS (variáveis) para facilitar a mudança entre as cores dos temas. Quando o tema escuro está ativo, alteramos os valores dessas variáveis.</p>
   </div>
 
   <script>
     const themeToggle = document.getElementById('theme-toggle');
     
-    // Check for saved theme preference or use prefer-color-scheme
+    // Verificar preferência de tema salva ou usar prefer-color-scheme
     const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
     const savedTheme = localStorage.getItem('theme');
     
@@ -122,7 +122,7 @@
       themeToggle.checked = true;
     }
     
-    // Toggle theme when switch is clicked
+    // Alternar tema quando a chave é clicada
     themeToggle.addEventListener('change', function() {
       if (this.checked) {
         document.body.classList.add('dark-mode');
