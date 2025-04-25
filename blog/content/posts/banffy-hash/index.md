@@ -9,18 +9,19 @@ tags = ['senhas', 'criptografia', 'causo']
 alt="Ricardo Bánffy e Luciano Ramalho em Dublin, durante a EuroPython 2022, 26 anos depois desse causo.">
 
 Entre os primeiros usuários do
-[Brasil Online](https://pt.wikipedia.org/wiki/Brasil_Online) havia uns tantos
-"VIPs": executivos de mídia, publicitários, e outras
-pessoas que a Abril queria agradar.
+[Brasil Online](https://pt.wikipedia.org/wiki/Brasil_Online) em 1996 
+havia uns tantos "VIPs": executivos de mídia, publicitários, políticos,
+celebridades, pessoas que a Abril queria agradar.
 Um desses VIPs esqueceu a senha e pediu para sua assistente
 ligar para a Abril para recuperá-la.
-O recado chegou até o meu chefe, Antonio Machado, que pediu para eu resolver.
+O recado chegou até o meu chefe, Antonio Machado—diretor do Grupo Exame—que
+pediu para eu resolver.
 
-O usuário VIP estava irritado porque o nosso suporte técnico
-havia dito que era impossível recuperar a senha, e ele achava que era má vontade:
+O usuário VIP estava irritado porque nosso suporte técnico
+disse que era impossível recuperar a senha, e ele achava que era má vontade:
 como podíamos autenticar um login sem saber a senha?
 Na verdade, a gente armazenava um hash criptográfico da
-senha, por isso era inviável reconstruir a senha.[^1]
+senha, por isso era inviável reconstruí-la.[^1]
 
 Passei o pepino para meu amigo, o engenheiro de software
 [Ricardo Bánffy](https://www.linkedin.com/in/ricardobanffy/).
@@ -36,7 +37,7 @@ E o Bánffy educou com essa analogia:
 > não temos como reconstruir a senha a partir das cinzas.[^2]
 
 Assim o Bánffy convenceu a assistente que o patrão irritado teria mesmo
-que seguir o procedimento normal para criar uma nova senha.[^3]
+que seguir o procedimento normal e criar uma nova senha.[^3]
 
 
 [^1]: Na época usávamos um hash MD5 com sal.
