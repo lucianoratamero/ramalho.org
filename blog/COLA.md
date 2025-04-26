@@ -1,17 +1,20 @@
 # Instruções para operar o blog
 
-## Criar novo documento plano em markdown
+## Criar nova página simples em markdown
 
 ```shell
 hugo new content/posts/banana.md
 ```
 
-## Transformar documento plano em aninhado
+## Embrulhar página
 
-Bom para colocar as imagens no mesmo diretório do texto.
+Transforma uma página simples num embrulho
+([page bundle](https://gohugo.io/content-management/page-bundles/).
+
+Bom para colocar imagens e anexos no mesmo diretório do texto.
 
 ```shell
-$ ./aninhar.sh content/posts/banana.md
+$ ./embrulhar.sh content/posts/banana.md
 ```
 
 O texto é movido para `content/posts/banana/index.md`:
@@ -26,7 +29,8 @@ content
 ┆   ┆
 ```
 
-Aninhar não muda a URL da página, continua sendo:
+Embrulhar não muda a URL da página.
+A URL do exemplo é a mesma antes e depois de embrulhar:
 
 ```
 https://ramalho.org/posts/banana/
