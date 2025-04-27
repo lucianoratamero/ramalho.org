@@ -233,12 +233,12 @@ jogadas juntas naquela ordem, e não individualmente.
 Como penalidade, esse jogador recebee 6 cartas.
 
 No Eleusis faz mais pontos quem fica com menos cartas na mão. O caminho
-da vitória, portanto, é descobrira a regra oculta.
+da vitória, portanto, é desvendar a regra oculta.
 No início de uma mão são poucas as informações disponiveis,
 e as cartas são jogadas quase aleatoriamente.
 À medida que o jogo prossegue, as
-cartas certas e erradas que dão aos jogadores pistas
-sobre a regra.
+cartas certas e erradas permitem elaborar hipóteses sobre
+a regra.
 
 ### Jogada sem cartas corretas
 
@@ -250,16 +250,17 @@ Se Deus confirmar sua declaração, e se esse jogador tiver 4 cartas ou
 menos, estas cartas são recolhidas pelo Deus e a mão termina.
 
 Se o jogador tiver 5 ou mais cartas e se Deus confirmar que ele
-realmente não tem cartas para jogar, suas cartas são recolhidas e
-embaralhadas pelo Deus com as cartas restantes do monte. Este, então,
-devolve ao jogador o número de cartas que ele tinha, menos 4 cartas.
+realmente não tem cartas para jogar, Deus recolhe a mão do jogador,
+embaralhando-as com o resto do monte.
+Deus então, devolve ao jogador o número de cartas que ele tinha,
+menos 4 cartas.
 E a mão continua.
 
-Supondo que o jogador tivesse 10 cartas na mão, o carteador lhe daria
-apenas 6 novas cartas.
+Supondo que o jogador tivesse 10 cartas na mão, Deus lhe daria
+6 novas cartas do monte reembaralhado.
 
 Se o jogador disser "não tenho cartas" mas na verdade tiver uma ou mais
-cartas corretas, Deus pega uma das cartas que servem e a coloca na
+cartas corretas, Deus pega apenas uma das cartas que servem e a coloca na
 fileira principal. Como castigo, o jogador recebe 5 novas cartas, além
 de ficar com as que já tinha.
 
@@ -268,17 +269,15 @@ de ficar com as que já tinha.
 Uma mão de Eleusis pode terminar de duas maneiras diferentes:
 
 1.  Quando alguém consegue jogar todas as suas cartas.
-2.  Quando todos os jogadores saem por erro.
+2.  Quando todos os jogadores são eliminados por erro.
 
-Após terem sido jogadas 30 cartas—certas e erradas—os jogadores vão
-sendo eliminados da mão quando errarem num lance qualquer. Ao sair
-nessas circunstâncias, o jogador recebe as cartas de castigo e espera
-até acabar a mão, mantendo suas cartas para a contagem de pontos. É
-recomendável colocar-se um marcador na 30ª carta (contando-se as cartas
+Após terem sido jogadas 30 cartas—certas e erradas—cada jogador
+que errar é eliminado da mão.
+O jogador recebe as cartas de castigo e espera
+até acabar a mão, mantendo suas cartas para a contagem de pontos.
+É recomendável colocar-se um marcador na 30ª carta (contando-se as cartas
 tanto da fileira principal como das colunas de erros), para que todos
-saibam que, a partir desse momento, quem errar será eliminado. Para
-melhor orientação dos jogadores também é bom colocar uma marca a cada 10
-cartas jogadas, para que se tenha idéia do desenvolvimento do jogo.
+saibam que, a partir desse momento, quem errar será eliminado.
 
 ### Contagem de pontos
 
@@ -286,7 +285,7 @@ No Eleusis, os pontos são contados no final de cada mão, da seguinte
 forma:
 
 -   Quem tiver a maior quantidade de cartas marca zero pontos.
--   Outros jogadores marcam a diferença entre a quantidadede suas cartas
+-   Outros jogadores marcam a diferença entre a quantidadede de suas cartas
     e a quantidadede de cartas de quem fez zero pontos.
 -   Quem bateu (terminou a mão sem cartas) ganha a diferença e mais uma
     bonificação de 4 pontos.
