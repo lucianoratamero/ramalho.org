@@ -2,7 +2,7 @@
 date = '2025-04-26T18:03:20-03:00'
 draft = false
 title = 'Eleusis: um jogo de raciocínio indutivo'
-tags = 'jogos'
+tags = ['jogos', 'baralho']
 +++
 
 Eleusis é um jogo de cartas que exercita o
@@ -15,10 +15,12 @@ O jogo foi criado por Robert Abott em 1956, e depois aperfeiçoado em colaboraç
 Martin D. Kruskal e John Jaworski até a versão definitiva, chamada Novo
 Eleusis, publicada em 1977. As regras a seguir são do Novo Eleusis.
 
-## Preparação
+Do Eleusis participam, no mínimo, 4 pessoas.
+O número ideal é 5 ou 6, embora possa ser disputado por até 8 pessoas.
+Bastam dois baralhos normais para jogar, mas havendo mais
+jogadores um terceiro baralho pode ser necessário.
 
-Do Eleusis participam, no mínimo, 4 pessoas. O número ideal é 5 ou 6,
-embora possa ser disputado por até 8 pessoas.
+## Preparação
 
 Para começar, uma pessoa é escolhida como carteador.
 Ela será "Deus".
@@ -29,15 +31,14 @@ carteadores é determinada pelas cartas que sortearam, da maior para a
 menor. Uma partida de Eleusis é composta de tantas mãos quantos forem os
 jogadores, cabendo a cada um deles o papel de Deus.
 
-Nesse jogo usam-se 2 baralhos de 52 cartas cada um, sem os curingas. É
-interessante, ter um terceiro baralho a disposição,
-principalmente quando os jogadores tiverem no final poucas cartas na
-mão, pois podem vir a faltar cartas.
+Nesse jogo usam-se baralhos de 52 cartas cada um, sem os curingas.
+Dois baralhos podem ser suficientes, mas às vezes um terceiro é útil.
 
 Antes de distribuir as cartas, Deus deve inventar a regra oculta,
-registrá-la por escrito, e guardá-lo. No final da mão, a regra escrita
-serve para documentar as decisões do Deus e esclarecer qualquer
-mal-entendido. Essa regra deve ser redigida em linguagem clara que não
+registrá-la por escrito, e guardá-la.
+No final da mão, a regra escrita serve para documentar as decisões do Deus
+e esclarecer qualquer mal-entendido.
+A regra deve ser redigida em linguagem clara que não
 dé margem a dividas em sua interpretacao.
 
 Fica a critério de Deus dar ou não dar dicas sobre a regra antes de
@@ -70,7 +71,7 @@ par e uma figura (Rei, Dama ou Valete).
 Os problemas dessa regra são:
 
 *   Alta dificuldade por se referir a duas cartas anteriores, e dois
-    atributos delas (preta, ímpar)—regras mais simples levam em conta
+    atributos delas (preta, ímpar)—as regras mais simples levam em conta
     apenas a última carta jogada, e apenas um atributo (cor, naipe ou
     número).
 *   Alta dificuldade ao impor limitações sobre duas cartas
@@ -91,7 +92,7 @@ Não pode se referir a cartas fora da fileira principal,
 muito menos aspectos alheios ao jogo.
 Por exemplo, não vale uma regra que obriga a descartar
 uma carta ímpar se o jogador só tiver uma carta na mão,
-ou uma regra que probe mulheres de jogar cartas pretas.
+ou uma regra que proíbe mulheres de jogar cartas pretas.
 
 Como o objetivo do jogo é livrar-se das cartas o mais cedo possivel,
 e a pontuação de Deus é a diferença de pontos entre o melhor e o
@@ -114,14 +115,14 @@ inicial—em uma extremidade da mesa.
 {{< figure
   src="eleusis-exemplo.png"
   alt="Exemplo de partida de Eleusis em andamento"
-  link="https://www.nps.gov/zion/index.htm"
-  caption="Exemplo de partida de Eleusis em andamento"
+  link="eleusis-exemplo.png"
+  caption="Exemplo de partida de Eleusis em andamento. Clique para ampliar."
   width=800
 >}}
 
 No diagrama, note que há uma fileira horizontal
 acima e algumas verticais, abaixo dela.
-A fileira horizontal, é a fileira principal,
+A fileira horizontal é a fileira principal,
 formada pelas cartas certas conforme a regra oculta,
 e as fileiras verticais, chamadas de colunas dos erros,
 são formadas pelas cartas erradas.
@@ -151,8 +152,7 @@ Se a carta for incorreta, será colocada abaixo da última carta da fileira prin
 Um jogador pode descartar uma carta, ou uma sequência de no máximo 4
 cartas, ou então declarar que não tem como jogar, como veremos adiante.
 Em qualquer um desses casos o jogador só pode fazer uma consulta a
-Deus—isto é, se jogar uma carta (ou uma sequência) e ela foi ou não
-aprovada, ele passa a vez ao próximo jogador.
+Deus, mesmo que abaixe uma sequência.
 
 Quando o jogador apresenta uma carta errada, recebe de Deus 2
 cartas do baralho fechado.
@@ -190,8 +190,8 @@ mas sim a sequência completa de uma só vez.
 {{< figure
   src="eleusis-exemplo.png"
   alt="Exemplo de partida de Eleusis em andamento"
-  link="https://www.nps.gov/zion/index.htm"
-  caption="Exemplo de partida de Eleusis em andamento"
+  link="eleusis-exemplo.png"
+  caption="Exemplo de partida de Eleusis em andamento. Clique para ampliar."
   width=800
 >}}
 
