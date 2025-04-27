@@ -48,15 +48,15 @@ vez iniciada a mão, Deus não pode dar mais nenhuma ajuda.
 
 A seguir, três exemplos de boas regras:
 
-> Se a última carta for espadas, jogue ouros;
+> Se a carta anterior for espadas, jogue ouros;
 se for ouros, jogue paus; se for paus, jogue copas; se for copas, jogue
 espadas (ciclo ♠→♦→♣→♥)
 
 > A cada carta ímpar preta, deve seguir-se
 uma carta par vermelha.
 
-> Se a última carta for preta, jogue 7 ou
-maior. Se a última carta for vermelha, jogue 6 ou menor. (Essa é a regra
+> Se a carta anterior for preta, jogue 7 ou
+maior. Se a carta anterior for vermelha, jogue 6 ou menor. (Essa é a regra
 adotada no [diagrama exemplo](eleusis#o-jogo).)
 
 Quando se usam valores numéricos nas regras, o Ás vale 1, o Valete (J) vale
@@ -72,7 +72,7 @@ Os problemas dessa regra são:
 
 *   Alta dificuldade por se referir a duas cartas anteriores, e dois
     atributos delas (preta, ímpar)—as regras mais simples levam em conta
-    apenas a última carta jogada, e apenas um atributo (cor, naipe ou
+    apenas a carta anterior, e apenas um atributo (cor, naipe ou
     número).
 *   Alta dificuldade ao impor limitações sobre duas cartas
     posteriores—regras mais simples limitam apenas a próxima carta.
@@ -92,7 +92,7 @@ Não pode se referir a cartas fora da fileira principal,
 muito menos aspectos alheios ao jogo.
 Por exemplo, não vale uma regra que obriga a descartar
 uma carta ímpar se o jogador só tiver uma carta na mão,
-ou uma regra que proíbe mulheres de jogar cartas pretas.
+ou uma regra que proíbe barbudos de jogar cartas vermelhas.
 
 Como o objetivo do jogo é livrar-se das cartas o mais cedo possivel,
 e a pontuação de Deus é a diferença de pontos entre o melhor e o
@@ -109,8 +109,8 @@ ninguém descobriria.
 
 Uma vez escrita a regra oculta, Deus embaralha as cartas
 e dá 14 para cada jogador, não recebendo ele próprio nenhuma carta.
-Depois, com o resto do baralho na mão, coloca uma carta—a carta
-inicial—em uma extremidade da mesa.
+Depois, com o resto do baralho na mão, abre uma carta
+inicial em uma extremidade da mesa.
 
 {{< figure
   src="eleusis-exemplo.png"
@@ -128,10 +128,11 @@ e as fileiras verticais, chamadas de colunas dos erros,
 são formadas pelas cartas erradas.
 
 Cabe a Deus inaugurar a fileira principal com a carta inicial.
-Se, ao tirar uma carta do baralho, o Deus verificar que ela não
-é adequada à regra que ele concebeu (não servindo, portanto, como carta
-inicial), deve colocá-la novamente no baralho, embaralhar e retirar
-outra carta, até encontrar uma carta adequada a regra.
+Ao tirar uma carta do baralho, o Deus pode decidir que ela não
+é adequada à regra que ele concebeu (por exemplo, a regra proíbe
+cartas pares, mas a carta é um 4).
+Nesse caso ele deve colocá-la novamente no baralho, embaralhar e retirar
+outra carta, até encontrar uma carta que sirva.
 Essa é a única vez que Deus abre alguma carta sobre a mesa.
 A partir de então, ele se limitará a aprovar os acertos, apontar os erros,
 e distribuir cartas como penalidades para os jogadores que errarem.
@@ -201,8 +202,8 @@ pelo diagrama acima.
 
 Nesse exemplo, a regra é:
 
-> Se a última carta for preta, jogue 7 ou maior.
-Se a última carta for vermelha, jogue 6 ou menor.
+> Se a carta anterior for preta, jogue 7 ou maior.
+Se a carta anterior for vermelha, jogue 6 ou menor.
 
 Deus colocou o 3 de Copas como carta inicial. O primeiro jogador
 tentou jogar um 8 de Copas, e errou. Por isso, a sua carta foi para
