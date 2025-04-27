@@ -1,7 +1,7 @@
 +++
 date = '2025-04-26T18:03:20-03:00'
 draft = true
-title = 'Eleusis'
+title = 'Eleusis: um jogo de raciocínio indutivo'
 tags = 'jogos'
 +++
 
@@ -30,12 +30,12 @@ menor. Uma partida de Eleusis é composta de tantas mãos quantos forem os
 jogadores, cabendo a cada um deles o papel de Deus.
 
 Nesse jogo usam-se 2 baralhos de 52 cartas cada um, sem os curingas. É
-interessante, porém, que se tenha um terceiro baralho a disposição,
+interessante, ter um terceiro baralho a disposição,
 principalmente quando os jogadores tiverem no final poucas cartas na
 mão, pois podem vir a faltar cartas.
 
-Antes de distribuir as cartas, Deus deve escrever a regra
-que inventou em um papel e guardá-lo. No final da mão, a regra escrita
+Antes de distribuir as cartas, Deus deve inventar a regra oculta,
+registrá-la por escrito, e guardá-lo. No final da mão, a regra escrita
 serve para documentar as decisões do Deus e esclarecer qualquer
 mal-entendido. Essa regra deve ser redigida em linguagem clara que não
 dé margem a dividas em sua interpretacao.
@@ -49,23 +49,23 @@ A seguir, três exemplos de boas regras:
 
 > Se a última carta for espadas, jogue ouros;
 se for ouros, jogue paus; se for paus, jogue copas; se for copas, jogue
-espadas.
+espadas (ciclo ♠→♦→♣→♥)
 
 > A cada carta ímpar preta, deve seguir-se
 uma carta par vermelha.
 
 > Se a última carta for preta, jogue 7 ou
 maior. Se a última carta for vermelha, jogue 6 ou menor. (Essa é a regra
-adotada no [diagrama exemplo](eleusis#o_jogo).)
+adotada no [diagrama exemplo](eleusis#o-jogo).)
 
-Quando se usam valores numéricos nas regras, o Ás vale 1, o Valete vale
-11, a Dama vale 12 e o Rei, 13. As outras cartas valem pelo seu próprio
+Quando se usam valores numéricos nas regras, o Ás vale 1, o Valete (J) vale
+11, a Dama (Q) vale 12 e o Rei (K), 13. As outras cartas valem pelo seu próprio
 número.
 
 Eis uma regra problemática:
 
 > 👎 A cada duas cartas pretas ímpares, deverá seguir-se uma carta vermelha
-par e uma figura—Rei, Dama ou Valete.
+par e uma figura (Rei, Dama ou Valete).
 
 Os problemas dessa regra são:
 
@@ -76,23 +76,22 @@ Os problemas dessa regra são:
 *   Alta dificuldade ao impor limitações sobre duas cartas
     posteriores—regras mais simples limitam apenas a próxima carta.
 *   Ambiguidade: não fica claro se é possível atender os dois requisitos
-    de \"carta vermelha e figura\" com apenas uma carta, se for jogada
+    de "carta vermelha e figura" com apenas uma carta, se for jogada
     uma Dama vermelha (valor 12, portanto par), ou se a regra se aplica
     sempre a duas cartas posteriores.
 
 Resolvida essa ambiguidade, essa seria uma regra válida, mas
-provavelmente muito difícil e consequentemente de pouco valor para o
+provavelmente muito difícil e teria pouco valor para
 Deus, que marca poucos pontos quando nenhum jogador consegue desvendar a
-regra.
+regra (porque todos são elimitados, como veremos a seguir)
 
-> ✋ **Importante**: A regra secreta só pode se
+> ✋ **Importante**: A regra oculta só pode se
 referir às cartas da fileira principal.
 Não pode se referir a cartas fora da fileira principal,
 muito menos aspectos alheios ao jogo.
-Por exemplo, não valem regras que obriguem
-jogar carta de naipe vermelho se quem joga é mulher;
-ou o descarte de uma carta ímpar se o
-jogador só tiver uma carta na mão e assim por diante.
+Por exemplo, não vale uma regra que obriga a descartar
+uma carta ímpar se o jogador só tiver uma carta na mão,
+ou uma regra que probe mulheres de jogar cartas pretas.
 
 Como o objetivo do jogo é livrar-se das cartas o mais cedo possivel,
 e a pontuação de Deus é a diferença de pontos entre o melhor e o
@@ -107,28 +106,34 @@ ninguém descobriria.
 
 ## O jogo
 
-Uma vez escrita a regra secreta, Deus embaralha as cartas
+Uma vez escrita a regra oculta, Deus embaralha as cartas
 e dá 14 para cada jogador, não recebendo ele próprio nenhuma carta.
 Depois, com o resto do baralho na mão, coloca uma carta—a carta
 inicial—em uma extremidade da mesa.
 
-![Exemplo de partida de Eleusis em andamento](eleusis-exemplo.png)
+{{< figure
+  src="eleusis-exemplo.png"
+  alt="Exemplo de partida de Eleusis em andamento"
+  link="https://www.nps.gov/zion/index.htm"
+  caption="Exemplo de partida de Eleusis em andamento"
+  width=800
+>}}
 
-No diagrama do exemplo, note que há uma fileira horizontal
+No diagrama, note que há uma fileira horizontal
 acima e algumas verticais, abaixo dela.
-A fileira horizontal, chamada de fileira principal,
-é formada pelas cartas certas, e as fileiras
-secundárias, chamadas de colunas dos erros, são formadas pelas cartas
-erradas.
+A fileira horizontal, é a fileira principal,
+formada pelas cartas certas conforme a regra oculta,
+e as fileiras verticais, chamadas de colunas dos erros,
+são formadas pelas cartas erradas.
 
-Cabe a Deus inaugurar a fileira principal com a carta
-inicial. Se, ao tirar uma carta do baralho, o Deus verificar que ela não
+Cabe a Deus inaugurar a fileira principal com a carta inicial.
+Se, ao tirar uma carta do baralho, o Deus verificar que ela não
 é adequada à regra que ele concebeu (não servindo, portanto, como carta
 inicial), deve colocá-la novamente no baralho, embaralhar e retirar
-outra carta, até encontrar uma carta adequada a regra. Essa é a única
-vez, durante o jogo, que Deus coloca alguma carta sobre a mesa. A
-partir de então, ele se limitará a aprovar os acertos, apontar os erros,
-e distribuir penalidades.
+outra carta, até encontrar uma carta adequada a regra.
+Essa é a única vez que Deus abre alguma carta sobre a mesa.
+A partir de então, ele se limitará a aprovar os acertos, apontar os erros,
+e distribuir cartas como penalidades para os jogadores que errarem.
 
 O jogo desenvolve-se sempre no sentido horário, isto é, de Deus para os
 jogadores a sua esquerda. Para determinar quem será o primeiro a jogar,
@@ -136,17 +141,16 @@ Deus conta o número indicado pela carta inicial, a partir do jogador a
 sua esquerda, pulando a si mesmo quando completar uma volta. Ou seja, se
 a primeira carta for um 8: para saber quem jogara primeiro, Deus conta
 os jogadores, a partir do jogador a sua esquerda, até o número 8. O
-jogador assim indicado começará a primeira mão.
+jogador assim indicado começará a mão.
 
-Cada participante, em sua vez de jogar, escolhe uma das cartas que tem
-na mão e a mostra ao Deus. Se a carta estiver correta, será colocada
-após a última carta da fileira principal. Se a carta for incorreta, será
-colocada abaixo da última carta da fileira principal, iniciando ou
-aumentando uma coluna de erros.
+Em sua vez de jogar, cada participante escolhe uma das cartas que tem
+na mão e apresenta a Deus.
+Se a carta estiver correta, será colocada após a última carta da fileira principal.
+Se a carta for incorreta, será colocada abaixo da última carta da fileira principal, iniciando ou aumentando uma coluna de erros.
 
 Um jogador pode descartar uma carta, ou uma sequência de no máximo 4
 cartas, ou então declarar que não tem como jogar, como veremos adiante.
-Em qualquer um desses casos o jogador só pode fazer uma consulta ao
+Em qualquer um desses casos o jogador só pode fazer uma consulta a
 Deus—isto é, se jogar uma carta (ou uma sequência) e ela foi ou não
 aprovada, ele passa a vez ao próximo jogador.
 
@@ -163,25 +167,34 @@ do número de cartas que apresentou.
 
 Após um sim ou um não do Deus, a vez passa ao jogador seguinte.
 
-> ✋ **Importante**: Deus nunca descreve o erro, apenas
-diz "sim" ou "não".
+> ✋ **Importante**: Deus nunca descreve o erro nem aponta qual
+a carta errada em uma sequência, apenas diz "sim" ou "não".
 
-Se, por exemplo, um jogador acredita ter descoberto a regra e resolve
-apresentar ao Deus uma sequência de 4 cartas de uma vez, caso ela esteja
-correta, o Deus dirá apenas sim. Mas, se uma ou mais cartas da sequência
-forem erradas (ou se todas forem certas mas estiverem em ordem errada),
-o Deus diz apenas não e coloca as cartas na coluna de erros.
+Por exemplo, um jogador acredita que descobriu a regra e resolve
+apresentar a Deus uma sequência de 4 cartas de uma vez.
+Caso a sequência esteja correta, Deus dirá apenas sim.
+Mas, se uma ou mais cartas da sequência forem erradas,
+ou se todas forem certas porém na ordem errada,
+Deus diz apenas não e coloca as cartas na coluna de erros.
 
 A sequência incorreta deve ser colocada na coluna de erros com as cartas
 parcialmente superpostas, para indicar que se trata de uma sequência.
+Essa disposição está ilustrada na terceira coluna de erros do diagrama.
 
-> ✋ **Importante**: Quando um jogador apresenta uma
-sequência, ele não pode apresentar uma a uma as cartas que a compoem,
+> ✋ **Importante**: Quando um jogador apresenta uma sequência,
+ele não pode apresentar uma a uma as cartas que a compoem,
 mas sim a sequência completa de uma só vez.
 
 ### Exemplo
 
-![eleusis-exemplo.png](eleusis-exemplo.png)
+{{< figure
+  src="eleusis-exemplo.png"
+  alt="Exemplo de partida de Eleusis em andamento"
+  link="https://www.nps.gov/zion/index.htm"
+  caption="Exemplo de partida de Eleusis em andamento"
+  width=800
+>}}
+
 
 Para facilitar a compreensão do jogo, acompanhe a sequência de jogadas
 pelo diagrama acima.
@@ -197,7 +210,7 @@ baixo da carta inicial, inaugurando a primeira coluna de erros.
 
 O segundo jogador tentou o 5 de Espadas, e acertou.
 
-O 9 de Ouros apresentado pelo jogador seguinte também está correto,
+O 9 de Ouros apresentado pelo jogador seguinte também está certo,
 mas o Valete de Copas, jogado a seguir, está errado e, por isso,
 oi colocado embaixo do 9 de Ouros, inaugurando a segunda coluna de erros.
 
@@ -220,7 +233,7 @@ jogadas juntas naquela ordem, e não individualmente.
 Como penalidade, esse jogador recebee 6 cartas.
 
 No Eleusis faz mais pontos quem fica com menos cartas na mão. O caminho
-da vitória, portanto, é descobrira a regra secreta.
+da vitória, portanto, é descobrira a regra oculta.
 No início de uma mão são poucas as informações disponiveis,
 e as cartas são jogadas quase aleatoriamente.
 À medida que o jogo prossegue, as
@@ -229,7 +242,7 @@ sobre a regra.
 
 ### Jogada sem cartas corretas
 
-Se um jogador acha que descobriu a regra secreta, mas não tem nenhuma
+Se um jogador acha que descobriu a regra oculta, mas não tem nenhuma
 carta correta para jogar, ele diz "não tenho cartas" e abre na mesa
 todas as cartas que tem na mão.
 
@@ -282,14 +295,14 @@ forma:
 
 #### Exemplo de pontuação de uma mão
 
-| Papel          | Cartas | Pontos | Observação  |
+| Pessoa         | Cartas na mão | Pontos Ganhos| Explicação  |
 |----------------|--------|--------|-------------|
-| **jogador 1** |      3 | 5      | 8 - 3 = 5   |
-| **jogador 2**  |      8 | 0      | micou com mais cartas que todos |
-| **jogador 3**  |      0 | 12     | bateu, bônus de 4: 8 + 4 = 12 |
-| **Deus**       |  -     | 12      | o mesmo que **jogador 3** |
+| **jogador 1**  |      8 | 0      | micou com mais cartas que todos |
+| **jogador 2**  |      3 | 5      | diferença: 8 - 3 = 5   |
+| **jogador 3**  |      0 | 12     | bateu, diferença + bônus: 8 + 4 = 12 |
+| **Deus**       |  -     | 12     | o mesmo que **jogador 3** |
 
-## Final do jogo
+### Final do jogo
 
 Uma partida inteira de Eleusis é composta de tantas mãos quanto for o
 número de jogadores—isto é, termina quando todos os jogadores tiverem
@@ -298,7 +311,30 @@ maneira: ao somar os pontos das mãos, acrescente mais 10 para quem não
 tiver sido Deus. É uma compensação, pois o Deus faz mais pontos do que a
 média.
 
-## Regra avançada: o Profeta
+> 👉 **Dica:** Você pode parar aqui e jogar. O restante são regras e dicas opcionais.
+
+## Algumas sugestões
+
+Para jogar Eleusis o ideal é usar 3 baralhos completos,
+embaralhados juntos, sem os curingas.
+
+Também é bom usar uma mesa grande ou
+cartas de tamanho menor do que o convencional,
+uma vez que o jogo tende a se
+alongar bastante na fileira principal e nas colunas verticais.
+Alternativamente, considere jogar no chão.
+
+Robert Abbott afirma que as principais caracteristicas de um Deus são
+uma avaliação correta da capacidade dos demais jogadores e a
+sensibilidade para criar um tipo de regra que lhe assegure bom número de
+pontos.
+Nesse sentido, ele afirma que as regras que abrangem apenas
+cerca de ¼ das cartas do baralho, a qualquer altura do jogo, tendem a
+ser mais fáceis do que as que abrangem mais da metade das cartas de um
+baralho.
+
+
+## Regras avançadas: "o Profeta"
 
 > Recomendamos que vocé só jogue com o
 Profeta apos ter aprendido o Eleusis básico. Os procedimentos e a
@@ -320,26 +356,28 @@ existam estas três condições:
     daquele que se declara Profeta.
 
 > ✋ **Importante**: Quando um jogador se declara Profeta
-é preciso marcar (com um rei do jogo de xadrez ou outro objeto qualquer)
-a última carta jogada por ele.
+é preciso marcar a última carta jogada por ele.
+Use um objeto qualquer, como uma peça de Xadrez.
 
-O Profeta continua com as cartas que tinha, mas não joga enquanto for
-Profeta. Suas cartas devem ficar à parte, sem uso, até que ele seja
-declarado Falso Profeta ou termine a mão. No fim da mão suas cartas
+O Profeta continua com as cartas que tinha, mas não abaixará cartas enquanto for
+Profeta.
+Suas cartas devem ficar à parte, até que ele seja
+declarado Falso Profeta ou a mão termine.
+No fim da mão suas cartas
 serão importantes para a contagem de pontos.
 
 O Deus passa para o Profeta o baralho usado para punir lances errados
 dos outros jogadores.
 
-Uma vez declarado o Profeta, o jogo continua normalmente, e não jogam
-cartas à mesa nem o Profeta nem o Deus. A cada lançamento de cartas a
-mesa, o Profeta diz "sim" ou "não" enquanto o Deus, baseado em sua regra
-secreta, afirma "correto" ou "incorreto" em relação ao julgamento do
+Uma vez declarado o Profeta, o jogo continua sem o Profeta
+ou Deus abaixarem cartas. Quando um jogador apresenta carta(s), o Profeta diz "sim" ou "não" enquanto o Deus, baseado em sua regra
+secreta, afirma "certo" ou "errado" em relação ao julgamento do
 Profeta.
 
-Se o Deus disser "incorreto", o Profeta é declarado na hora Falso
-Profeta, e a peça de xadrez ou outro objeto que marcava o inicio de suas
-atividades é retirada. Como penalidade, o Falso Profeta não poderá mais
+Se o Deus disser "errado", o Profeta é declarado na hora Falso
+Profeta, e o outro objeto que marcava o inicio de suas
+atividades é retirada.
+Como penalidade, o Falso Profeta não poderá mais
 ser Profeta naquela mão.
 
 > Segundo Robert Abbott, criador do Eleusis,
@@ -350,38 +388,39 @@ divertidos do jogo.
 Com a queda do Profeta, o Deus reassume seu papel e completa a jogada
 que derrubou o Profeta, colocando a carta ou a sequência de cartas
 apresentada pelo último jogador na fileira principal ou em uma coluna de
-erros. É importante frisar que se essas cartas não forem corretas e o
-Profeta tiver dito que eram, quem as jogou não é castigado. O objetivo
+erros. É importante frisar que se essas cartas nforem erradas e o
+Profeta tiver dito que eram certas, quem as jogou não é castigado. O objetivo
 desta exceção é incentivar os jogadores a derrubar o Profeta, jogando
 cartas erradas de propósito, para conferir se o Profeta sabe realmente a
-regra secreta.
+regra oculta.
 
 Quando há Profeta e um jogador alega não ter cartas para jogar, pode
 ocorrer:
 
-1.  O profeta diz "sim" e o Deus confirma: "correto". O jogo segue
+1.  O profeta diz "sim" e o Deus confirma: "certo". O jogo segue
     normalmente.
-2.  O Profeta diz "sim" e o Deus desaprova dizendo "incorreto". O
+2.  O Profeta diz "sim" e o Deus desaprova dizendo "errado". O
     Profeta cai e passa o baralho para o Deus, continuando o jogo
     normalmente. (Este é outro caso em que o jogador que errou não é
     punido.)
-3.  O Profeta diz "não" e o Deus desaprova dizendo "incorreto" — ou
+3.  O Profeta diz "não" e o Deus desaprova dizendo "errado" — ou
     seja, o jogador está certo. Nesse caso, cai o Profeta e o Deus dá
     prosseguimento ao jogo.
-4.  O Profeta diz "não" e o Deus aprova dizendo "correto". Portanto, o
+4.  O Profeta diz "não" e o Deus aprova dizendo "certo". Portanto, o
     jogador errou. O Profeta deve retirar uma das cartas apresentadas e
     coloca-la na fileira principal. Mas, se ao tirar essa carta, o
     Profeta errar, ele será imediatamente declarado Falso Profeta. Deus,
     que reassume suas funções, tirando uma carta correta do jogador e
     colocando-a na fila principal, mas sem castigar o jogador que errou.
 
-Havendo Profeta, a eliminação de jogadores por motivo de erro dá-se a
+Havendo Profeta, a eliminação de jogadores por motivo de erro acontece a
 partir da 21ª carta jogada após a entrada do Profeta no jogo. (Daí a
-importância de se marcar a entrada do Profeta no jogo com uma peça de
-xadrez ou qualquer outro objeto.) É conveniente marcar também a 20ª
-carta a partir da entrada do Profeta, de modo que fique claro para todos
-os jogadores que, a partir desse momento, não podem mais errar se
-quiserem continuar na mão.
+importância de se marcar a entrada do Profeta no jogo).
+Por isso é conveniente marcar também a 20ª
+carta a partir da entrada do Profeta,
+de modo que fique claro para todos
+os jogadores que, a partir desse momento, o erro é punido com cartas
+e eliminação do jogador dessa mão.
 
 > ✋ **Importante**: Quando o Profeta é derrubado,
 retira-se também o objeto que marcava sua ascensão.
@@ -424,23 +463,8 @@ Ao final dessa mão, a situação de cada jogador ficou assim:
 
 | Pessoa | Cartas na mão | Pontos ganhos | Explicação |
 |--------|---------------|---------------|------------|
-| Ana    | 17            | 0             | Estava com a maior quantidade de cartas ao final da mão. |
+| Ana    | 17            | 0             | Micou com a maior quantidade de cartas ao final da mão. |
 | Rui    | 14            | 3             | 17 (cartas de Ana) menos 14 (suas cartas). |
-| Mario  | 0             | 21            | 17 (cartas de Ana) menos 0 (suas cartas) mais bônus de 4 por terminar sem cartas. |
+| Mario  | 0             | 21            | Bateu: ganha 17 (cartas de Ana) menos 0 (suas cartas) mais bônus de 4 por terminar sem cartas. |
 | Clara  | 9             | 42            | 17 (cartas de Ana) menos 9 (suas cartas) mais bônus de cartas jogadas no período em que foi Profeta: 12 cartas na fileira principal e 11 nas colunas de erros: 12 + 11 × 2 = 34 |
-| Luis   | -             | 38            | O maior número de pontos na mão foi 42. Mas antes de Clara virar Profeta, havia 19 cartas na mesa e 19 × 2 = 38. A pontuação do Deus é o menor desses dois números. |
-
-## Algumas sugestões
-
-Para jogar Eleusis, é bom que se disponha de uma mesa grande ou de
-cartas de tamanho menor do que o convencional. Na falta desses dois
-elementos, sugerimos que se jogue no chão, uma vez que o jogo tende a se
-alongar muito na fileira horizontal e nas colunas verticais.
-
-Robert Abbott afirma que as principais caracteristicas de um Deus são
-uma avaliação correta da capacidade dos demais jogadores e a
-sensibilidade para criar um tipo de regra que lhe assegure bom número de
-pontos. Nesse sentido, ele afirma que as regras que abrangem apenas
-cerca de ¼ das cartas do baralho, a qualquer altura do jogo, tendem a
-ser mais fáceis do que as que abrangem mais da metade das cartas de um
-baralho.
+| Luis   | -             | 38            | O maior número de pontos na mão foi 42. Mas antes de Clara virar Profeta, havia 19 cartas na mesa e 19 × 2 = 38. A pontuação do Deus é o menor desses dois números.|
