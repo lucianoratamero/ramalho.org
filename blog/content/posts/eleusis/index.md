@@ -1,6 +1,6 @@
 +++
 date = '2025-04-26T18:03:20-03:00'
-draft = true
+draft = false
 title = 'Eleusis: um jogo de raciocínio indutivo'
 tags = 'jogos'
 +++
