@@ -26,53 +26,94 @@ Máximo: 8.
 
 * 3 baralhos comuns (iguais);
 * mesa grande (ou baralhos pequenos);
-* lápis e papel para marcar pontos e registrar as regras divinas;
+* lápis e papel para marcar pontos e registrar as Regras Divinas.
 
 ## Visão geral
 
-Uma partida é formada por várias mãos, quando os jogadores recebem novas cartas.
+Uma partida é formada por várias mãos.
 
-A cada mão um jogador diferente faz o papel de Deus.
+A cada mão os jogadores recebem novas cartas,
+e um jogador diferente faz o papel de Deus
 
 O Deus:
 
 1. Escreve uma Regra Divina, sem revelar para nenhum jogador.
-2. Embaralha o monte e distribui 14 cartas para cada jogador.
+2. Embaralha o monte e distribui 14 cartas para cada jogador (mas não para si).
 3. Abre uma carta do monte iniciar a fila principal.
 
-Cada jogador na sua vez abaixa uma carta.
+Em sentido horário, cada jogador na sua vez abaixa uma carta.
 
 * Se a carta atende à Regra Divina, Deus responde "Sim" e coloca a carta na fila principal.
 
 * Se a carta não atende a Regra Divina, Deus responde "Não", coloca a carta na columa de erros,
 e dá duas cartas do monte para o jogador como penitência.
 
-Quando um jogador abaixa sua última carta e ela está correta, ele "bateu", e a mão é encerrada.
+### Objetivos
+
+* Marcar pontos livrando-se de todas as suas cartas antes dos demais jogadores.
+
+* Para o Deus: escrever uma Regra Divina que algumas pessoas descubram e outras não,
+maximizando os pontos de quem bateu, e assim maximizar sua propria pontuação.
+
+### Exemplo 1
+
+Na figura abaixo, a Regra Divina é:
+
+> Se a carta anterior for preta, jogue 7 ou maior.
+Se a carta anterior for vermelha, jogue 6 ou menor. 
+
+{{< figure
+  src="fila-ate03.png"
+  alt="Início de uma mão de Eleusis"
+  link="fila-ate03.png"
+  caption="Início de uma mão de Eleusis. Clique para ampliar."
+  width=800
+>}}
+
+As três primeiras jogadas foram:
+
+1. Deus inicia a fila principal colocando o 3 de copas.
+2. Jogador 1 abre um 8 de copas.
+Deus diz "Não", coloca o 8 de copas na primeira coluna de erros.
+Como "castigo", jogador #1 recebe mais duas cartas do monte.
+3. Jogador 2 abre um 5 de paus. Deus diz "Sim" e a carta é colocada na fila principal.ß
+
+## Final de uma mão
+
+Uma mão de Eleusis pode terminar de duas maneiras:
+
+1.  Quando alguém consegue bater (jogar todas as suas cartas).
+2.  Quando todos os jogadores são eliminados por erro.
+
+### Eliminação por erro
+
+Após terem sido jogadas 30 cartas—certas ou erradas—cada jogador
+que errar é eliminado da mão.
+O jogador recebe as cartas de castigo e espera
+até acabar a mão, mantendo suas cartas para a contagem de pontos.
+
+Recomenda-se colocar-se um marcador na 30ª carta (contando-se as cartas
+tanto da fileira principal como das colunas de erros), para que todos
+saibam que, a partir desse momento, quem errar será eliminado.
+
+### Contagem de pontos de uma mão
 
 Para contar pontos, determine a maior quantidade de cartas que sobrou na mão de um jogador.
-Vamos chamar esse número de Max.
+Vamos chamar esse número de `Max`.
 
-* O jogador que bateu ganha Max pontos + 4 de bônus.
-* Deus ganha a mesma quantidade de pontos que o jogador que bateu.
-* Demais jogadores ganham (Max - N) pontos, onde N é a quantidade de cartas na mão desse jogador.
+* Se um jogador bateu, ele pontua `Max + 4` pontos.
+* Demais jogadores ganham `(Max - N)` pontos, onde N é a quantidade de cartas na mão desse jogador.
 Isso significa que o jogador que micou com mais cartas marca 0 ponto.
-
-
-## Objetivos
-
-Marcar pontos livrando-se de todas as suas cartas antes dos demais jogadores.
-
-Para o Deus: escrever uma Regra Divina que algumas pessoas descubram e outras não,
-maximizando os pontos de quem bateu, e assim maximizar sua propria pontuação.
+* O Deus ganha a mesma quantidade de pontos que o jogador fez mais pontos.
 
 
 ### Exemplo de pontuação de uma mão
 
 | Pessoa         | Cartas na mão | Pontos Ganhos| Explicação  |
 |----------------|--------|--------|-------------|
-| **jogador 1**  |      8 | 0      | micou com mais cartas que todos (Max = 8)|
-| **jogador 2**  |      3 | 5      | diferença: Max - 3 = 5   |
-| **jogador 3**  |      0 | 12     | bateu, diferença + bônus: Max + 4 = 12 |
+| **jogador 1**  |      8 | 0      | micou com mais cartas que todos (`Max = 8`)|
+| **jogador 2**  |      3 | 5      | diferença: `Max - 3 = 5`   |
+| **jogador 3**  |      0 | 12     | bateu, diferença + bônus: `Max + 4 = 12` |
 | **Deus**       |  -     | 12     | o mesmo que **jogador 3** |
 
 
@@ -310,22 +351,6 @@ cartas corretas, Deus pega apenas uma das cartas que servem e a coloca na
 fileira principal. Como castigo, o jogador recebe 5 novas cartas, além
 de ficar com as que já tinha.
 
-## Final de uma mão
-
-Uma mão de Eleusis pode terminar de duas maneiras diferentes:
-
-1.  Quando alguém consegue jogar todas as suas cartas.
-2.  Quando todos os jogadores são eliminados por erro.
-
-Após terem sido jogadas 30 cartas—certas e erradas—cada jogador
-que errar é eliminado da mão.
-O jogador recebe as cartas de castigo e espera
-até acabar a mão, mantendo suas cartas para a contagem de pontos.
-É recomendável colocar-se um marcador na 30ª carta (contando-se as cartas
-tanto da fileira principal como das colunas de erros), para que todos
-saibam que, a partir desse momento, quem errar será eliminado.
-
-### Contagem de pontos
 
 
 ### Final do jogo
