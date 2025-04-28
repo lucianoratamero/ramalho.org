@@ -1,6 +1,6 @@
 +++
 date = '2025-04-26T18:03:20-03:00'
-draft = false
+draft = true
 title = 'Eleusis: um jogo de raciocínio indutivo'
 tags = ['jogos', 'baralho']
 +++
@@ -9,42 +9,81 @@ Eleusis é um jogo de cartas que exercita o
 [método indutivo](https://pt.wikipedia.org/wiki/M%C3%A9todo_indutivo)
 característico da ciência.
 A partir de experimentos e observações, os jogadores precisam
-formular hipóteses sobre uma regra oculta.
+formular hipóteses sobre uma Regra Divina.
 
 O jogo foi criado por Robert Abott em 1956, e depois aperfeiçoado em colaboração com
 Martin D. Kruskal e John Jaworski até a versão definitiva, chamada Novo
 Eleusis, publicada em 1977. As regras a seguir são do Novo Eleusis.
 
-Do Eleusis participam, no mínimo, 4 pessoas.
-O número ideal é 5 ou 6, embora possa ser disputado por até 8 pessoas.
-Bastam dois baralhos normais para jogar, mas havendo mais
-jogadores um terceiro baralho pode ser necessário.
 
-## Preparação
+## Participantes
 
-Para começar, uma pessoa é escolhida como carteador.
-Ela será "Deus".
-O carteador muda a cada mão do jogo, e uma mão termina quando um dos
-jogadores tiver conseguido baixar todas as suas cartas ou, entao, quando
-todos os jogadores tiverem sido eliminados da mão. A ordem dos
-carteadores é determinada pelas cartas que sortearam, da maior para a
-menor. Uma partida de Eleusis é composta de tantas mãos quantos forem os
-jogadores, cabendo a cada um deles o papel de Deus.
+Mínimo: 4.
+Ideal: 5 ou 6.
+Máximo: 8.
 
-Nesse jogo usam-se baralhos de 52 cartas cada um, sem os curingas.
-Dois baralhos podem ser suficientes, mas às vezes um terceiro é útil.
+## Material
 
-Antes de distribuir as cartas, Deus deve inventar a regra oculta,
+* 3 baralhos comuns (iguais);
+* mesa grande (ou baralhos pequenos);
+* lápis e papel para marcar pontos e registrar as regras divinas;
+
+## Visão geral
+
+Uma partida é formada por várias mãos, quando os jogadores recebem novas cartas.
+
+A cada mão um jogador diferente faz o papel de Deus.
+
+O Deus:
+
+1. Escreve uma Regra Divina, sem revelar para nenhum jogador.
+2. Embaralha o monte e distribui 14 cartas para cada jogador.
+3. Abre uma carta do monte iniciar a fila principal.
+
+Cada jogador na sua vez abaixa uma carta.
+
+* Se a carta atende à Regra Divina, Deus responde "Sim" e coloca a carta na fila principal.
+
+* Se a carta não atende a Regra Divina, Deus responde "Não", coloca a carta na columa de erros,
+e dá duas cartas do monte para o jogador como penitência.
+
+Quando um jogador abaixa sua última carta e ela está correta, ele "bateu", e a mão é encerrada.
+
+Para contar pontos, determine a maior quantidade de cartas que sobrou na mão de um jogador.
+Vamos chamar esse número de Max.
+
+* O jogador que bateu ganha Max pontos + 4 de bônus.
+* Deus ganha a mesma quantidade de pontos que o jogador que bateu.
+* Demais jogadores ganham (Max - N) pontos, onde N é a quantidade de cartas na mão desse jogador.
+Isso significa que o jogador que micou com mais cartas marca 0 ponto.
+
+
+## Objetivos
+
+Marcar pontos livrando-se de todas as suas cartas antes dos demais jogadores.
+
+Para o Deus: escrever uma Regra Divina que algumas pessoas descubram e outras não,
+maximizando os pontos de quem bateu, e assim maximizar sua propria pontuação.
+
+
+### Exemplo de pontuação de uma mão
+
+| Pessoa         | Cartas na mão | Pontos Ganhos| Explicação  |
+|----------------|--------|--------|-------------|
+| **jogador 1**  |      8 | 0      | micou com mais cartas que todos (Max = 8)|
+| **jogador 2**  |      3 | 5      | diferença: Max - 3 = 5   |
+| **jogador 3**  |      0 | 12     | bateu, diferença + bônus: Max + 4 = 12 |
+| **Deus**       |  -     | 12     | o mesmo que **jogador 3** |
+
+
+## Regras sobre a Regra Divina
+
+Antes de distribuir as cartas, o Deus deve inventar a Regra Divina,
 registrá-la por escrito, e guardá-la.
-No final da mão, a regra escrita serve para documentar as decisões do Deus
-e esclarecer qualquer mal-entendido.
-A regra deve ser redigida em linguagem clara que não
-dé margem a dividas em sua interpretacao.
-
-Fica a critério de Deus dar ou não dar dicas sobre a regra antes de
-iniciar a mão. Por exemplo, Ela pode dizer: "a regra não envolve naipes"
-ou "a regra não envolve cor" ou "a regra não envolve números". Mas, uma
-vez iniciada a mão, Deus não pode dar mais nenhuma ajuda.
+No final da mão, o Deus é obrigado a apresentá-la, e os jogadores
+podem conferir as decisões.
+A regra deve ser redigida cuidadosamente para evitar
+dúvidas em sua interpretação.
 
 A seguir, três exemplos de boas regras:
 
@@ -63,12 +102,33 @@ Quando se usam valores numéricos nas regras, o Ás vale 1, o Valete (J) vale
 11, a Dama (Q) vale 12 e o Rei (K), 13. As outras cartas valem pelo seu próprio
 número.
 
+
+> ✋ **Importante**: A Regra Divina só pode se
+referir às cartas da fileira principal.
+Não pode se referir a cartas fora da fileira principal,
+muito menos aspectos alheios ao jogo.
+Por exemplo, não vale uma regra que obriga a descartar
+uma carta ímpar se o jogador só tiver uma carta na mão,
+ou uma regra que proíbe barbudos de jogar cartas vermelhas.
+
+Como o objetivo do jogo é livrar-se das cartas o mais cedo possivel,
+e a pontuação de Deus é a diferença de pontos entre o melhor e o
+pior jogador da mão, a regra não é
+muito fácil, nem muito difícil, de modo que alguns jogadores possam
+descobrí-la mais rapidamente que outros.
+
+Se não fosse essa caracteristica do jogo, Deus poderia
+torná-lo monótono e frustrante, elaborando regras dificílimas que
+ninguém descobriria.
+
+### Uma regra problemática
+
 Eis uma regra problemática:
 
 > 👎 A cada duas cartas pretas ímpares, deverá seguir-se uma carta vermelha
 par e uma figura (Rei, Dama ou Valete).
 
-Os problemas dessa regra são:
+Os problemas:
 
 *   Alta dificuldade por se referir a duas cartas anteriores, e dois
     atributos delas (preta, ímpar)—as regras mais simples levam em conta
@@ -86,31 +146,16 @@ provavelmente muito difícil e teria pouco valor para
 Deus, que marca poucos pontos quando nenhum jogador consegue desvendar a
 regra (porque todos são elimitados, como veremos a seguir)
 
-> ✋ **Importante**: A regra oculta só pode se
-referir às cartas da fileira principal.
-Não pode se referir a cartas fora da fileira principal,
-muito menos aspectos alheios ao jogo.
-Por exemplo, não vale uma regra que obriga a descartar
-uma carta ímpar se o jogador só tiver uma carta na mão,
-ou uma regra que proíbe barbudos de jogar cartas vermelhas.
+### Dicas divinas
 
-Como o objetivo do jogo é livrar-se das cartas o mais cedo possivel,
-e a pontuação de Deus é a diferença de pontos entre o melhor e o
-pior jogador (como veremos adiante), a regra ideal é aquela que não é
-muito fácil, nem muito difícil, de modo que alguns jogadores possam
-descobrí-la mais rapidamente que outros. Isso requer de Deus uma
-boa intuição sobre as caracteristicas dos jogadores.
+Fica a critério de Deus dar ou não dar dicas sobre a regra antes de
+iniciar a mão. Por exemplo, pode dizer: "a regra não envolve naipes"
+ou "a é sobre números".
+Mas, uma vez iniciada a mão, Deus não pode dar mais nenhuma ajuda.
 
-Se não fosse essa caracteristica do jogo, Deus poderia
-torná-lo monótono e frustrante, elaborando regras dificílimas que
-ninguém descobriria.
 
-## O jogo
+### Exemplos de jogadas
 
-Uma vez escrita a regra oculta, Deus embaralha as cartas
-e dá 14 para cada jogador, não recebendo ele próprio nenhuma carta.
-Depois, com o resto do baralho na mão, abre uma carta
-inicial em uma extremidade da mesa.
 
 {{< figure
   src="eleusis-exemplo.png"
@@ -123,7 +168,7 @@ inicial em uma extremidade da mesa.
 No diagrama, note que há uma fileira horizontal
 acima e algumas verticais, abaixo dela.
 A fileira horizontal é a fileira principal,
-formada pelas cartas certas conforme a regra oculta,
+formada pelas cartas certas conforme a Regra Divina,
 e as fileiras verticais, chamadas de colunas dos erros,
 são formadas pelas cartas erradas.
 
@@ -234,7 +279,7 @@ jogadas juntas naquela ordem, e não individualmente.
 Como penalidade, esse jogador recebee 6 cartas.
 
 No Eleusis faz mais pontos quem fica com menos cartas na mão. O caminho
-da vitória, portanto, é desvendar a regra oculta.
+da vitória, portanto, é desvendar a Regra Divina.
 No início de uma mão são poucas as informações disponiveis,
 e as cartas são jogadas quase aleatoriamente.
 À medida que o jogo prossegue, as
@@ -243,7 +288,7 @@ a regra.
 
 ### Jogada sem cartas corretas
 
-Se um jogador acha que descobriu a regra oculta, mas não tem nenhuma
+Se um jogador acha que descobriu a Regra Divina, mas não tem nenhuma
 carta correta para jogar, ele diz "não tenho cartas" e abre na mesa
 todas as cartas que tem na mão.
 
@@ -282,25 +327,6 @@ saibam que, a partir desse momento, quem errar será eliminado.
 
 ### Contagem de pontos
 
-No Eleusis, os pontos são contados no final de cada mão, da seguinte
-forma:
-
--   Quem tiver a maior quantidade de cartas marca zero pontos.
--   Outros jogadores marcam a diferença entre a quantidadede de suas cartas
-    e a quantidadede de cartas de quem fez zero pontos.
--   Quem bateu (terminou a mão sem cartas) ganha a diferença e mais uma
-    bonificação de 4 pontos.
--   O número de pontos do Deus é igual ao maior número de pontos que
-    qualquer jogador tenha feito, incluindo eventuais bonificações.
-
-#### Exemplo de pontuação de uma mão
-
-| Pessoa         | Cartas na mão | Pontos Ganhos| Explicação  |
-|----------------|--------|--------|-------------|
-| **jogador 1**  |      8 | 0      | micou com mais cartas que todos |
-| **jogador 2**  |      3 | 5      | diferença: 8 - 3 = 5   |
-| **jogador 3**  |      0 | 12     | bateu, diferença + bônus: 8 + 4 = 12 |
-| **Deus**       |  -     | 12     | o mesmo que **jogador 3** |
 
 ### Final do jogo
 
@@ -392,7 +418,7 @@ erros. É importante frisar que se essas cartas nforem erradas e o
 Profeta tiver dito que eram certas, quem as jogou não é castigado. O objetivo
 desta exceção é incentivar os jogadores a derrubar o Profeta, jogando
 cartas erradas de propósito, para conferir se o Profeta sabe realmente a
-regra oculta.
+Regra Divina.
 
 Quando há Profeta e um jogador alega não ter cartas para jogar, pode
 ocorrer:
