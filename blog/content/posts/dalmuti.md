@@ -13,12 +13,12 @@ temática medieval e um baralho com 78 cartas de 1 a 12, mais 2 curingas,
 bom para até 6 jogadores.
 Depois foi relançado como "Dilbert Corporate Shuffle", ilustrado com personagens
 de Scott Adams, e um baralho com 55 cartas de 1 a 10, mais 2 curingas e 3 cartas especiais,
-limitado 4 jogadores.
+limitado a 4 jogadores.
 
-> **Nota**: Estas regras não são uma tradução do original;
-foram escritas por Luciano Ramalho com base na sua variante preferida, testada muitas vezes.
+> **Nota**: Estas regras não são uma tradução do original.
+Descrevi com minhas palavras a minha variante preferida, testada muitas vezes.
 Adotei a temática corporativa, mas não as cartas especiais do "Dilbert",
-que introduzem novas regras sem melhorar o jogo.
+que introduzem novas regras sem melhorar o jogo. —*LR*
 
 ## Objetivo
 
