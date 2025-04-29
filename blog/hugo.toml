@@ -13,4 +13,5 @@ theme = 'basico'
 # layout parameters
 
 [params]
-width = "760px"
+    width = "760px"
+    custom_css = ["basico.css"]
