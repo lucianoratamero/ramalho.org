@@ -3,6 +3,8 @@
 
 <h1>{{ .Title }}</h1>
 
+{{ .TableOfContents }}
+
   {{ .Content }}
   {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
 {{ end }}
