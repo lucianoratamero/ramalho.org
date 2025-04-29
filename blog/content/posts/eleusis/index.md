@@ -205,7 +205,7 @@ Isso significa que o jogador que micou com mais cartas marca 0.
 ### Exemplo de pontuação de uma mão
 
 | Pessoa         | Cartas | Pontos | Explicação  |
-|----------------|-------:|-------:|-------------|
+|:------:|------:|------:|------------|
 | **jogador 1**  |      8 | 0      | micou com mais cartas que todos (`Max = 8`)|
 | **jogador 2**  |      3 | 5      | diferença: `Max - 3 = 5`   |
 | **jogador 3**  |      0 | 12     | bateu, diferença + bônus: `Max + 4 = 12` |
@@ -445,7 +445,7 @@ o algoritmo para se pontuar Deus é assim:
 * O Profeta foi o jogador que marcou mais pontos (`P = 39`).
 
 * Antes da ascenção do Profeta haviam 14 cartas na mesa
-(fila principal e colunas de erros), então `A = 14 * 2 = 28`.
+(fila principal e colunas de erros), então `A = 14 × 2 = 28`.
 
 * Deus recebe 28 pontos (`min(P, A)`).
 
@@ -466,10 +466,10 @@ a seguir um exemplo com 5 participantes.
 
 Ao final dessa mão, a pontuação ficou assim:
 
-| Pessoa | Cartas| Pontos| Explicação |
-|:------:|------:|------:|------------|
-| Ana    | 17    | 0     | Micou com a maior quantidade de cartas ao final da mão. |
-| Rui    | 14    | 3     | 17 (cartas de Ana) menos 14 (suas cartas). |
-| Mario  | 0     | 21    | Bateu: ganha 17 (cartas de Ana) menos 0 (suas cartas) mais bônus de 4 por terminar sem cartas. |
-| Clara  | 9     | 42    | 17 (cartas de Ana) menos 9 (suas cartas) mais bônus de cartas jogadas no período em que foi Profeta: 12 cartas na fileira principal e 11 nas colunas de erros: 12 + 11 × 2 = 34 |
-| Luis   | -     | 38    | O maior número de pontos na mão foi 42. Mas antes de Clara virar Profeta, havia 19 cartas na mesa e 19 × 2 = 38. A pontuação do Deus é o menor desses números.|
+| Pessoa     |Cartas |Pontos | Explicação |
+|:----------:|------:|------:|------------|
+| **Ana**    | 17    | 0     | Micou com a maior quantidade de cartas. `Max = 17` |
+| **Rui**    | 14    | 3     | `Max` menos 14 (suas cartas). |
+| **Mario**  | 0     | 21    | Bateu: ganha 4 pontos de bônus + `Max`. |
+| **Clara**  | 9     | 42    | `Max` menos 9 (suas cartas) mais bônus de cartas jogadas no período em que foi Profeta: 12 cartas na fileira principal e 11 nas colunas de erros:<br>`8 + 12 + (11 × 2) = 42` |
+| **Luis** (Deus)  | -     | 38    | O maior número de pontos na mão foi 42. <BR>Antes de Clara virar Profeta, havia 19 cartas na mesa. 19 × 2 = 38.<br>A pontuação do Deus é o menor entre 42 e 38.|
