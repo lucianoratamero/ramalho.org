@@ -1,10 +1,11 @@
 +++
-date = '2025-04-29T21:02:35-03:00'
-draft = true
+date = '2025-04-29T20:53:03-03:00'
+draft = false
 title = 'Passdrill: para praticar senhas fortes'
+tags =['segurança', 'senhas']
 +++
 
-Você pode usar o [Dadoware](/dadoware/Dadoware) para criar uma
+Você pode usar o [Dadoware](/posts/dadoware) para criar uma
 frase-senha forte, mas para usá-la no dia-a-dia ainda vai precisar:
 
 - memorizar a senha;
@@ -13,25 +14,35 @@ frase-senha forte, mas para usá-la no dia-a-dia ainda vai precisar:
 Com **Passdrill**, você pratica a digitação de uma senha longa
 em um ambiente seguro: seu console local.
 
+O **passdrill** não salva a senha digitada, mas sim uma assinatura
+digital (*hash*) derivada da senha, através dos algoritmos **scrypt** ou
+**pbkdf2**—projetados para tornar os ataques de força-bruta mais
+difíceis.
+
+Veja o conteúdo do arquivo `passdrill.hash` gerado pelo exemplo acima:
+
+    scrypt:UJGFquwCLGFrD+fzrqt91UvOdcrIKhB0/pEp6Un/l48=:Xg129pYzkm5pZIgx0p1SFf6bmFCvrFB5jNGxd/Y4oB+TU/tZXWraD+g7Ui0A8t4dN4CuzYXFp9+TuOLdPlzwlg==
+
 Repositório com o programa: <https://github.com/ramalho/passdrill>
 
 ## Demonstração
 
 Essa é uma seção de prática com o **passdrill**:
 
-    $ passdrill
-    Type q to end practice.
-    1:
-      OK    hits=1  misses=0
-    2:
-      wrong hits=1  misses=1
-    3:
-      OK    hits=2  misses=1
-    4:
-      OK    hits=3  misses=1
-    5:
-
-    4 exercises. 75.0% correct.
+```
+$ passdrill
+Type q to end practice.
+1:
+  OK    hits=1  misses=0
+2:
+  wrong hits=1  misses=1
+3:
+  OK    hits=2  misses=1
+4:
+  OK    hits=3  misses=1
+5:
+4 exercises. 75.0% correct.
+```
 
 As linhas marcadas com `1:`, `2:`, etc. são os *prompts*, onde você
 digita a senha. Por segurança, o programa não exibe um eco durante a
@@ -52,14 +63,6 @@ Neste exemplo, a senha a ser praticada é *\"galera ama excitar muito
 subir comicio\"* (uma frase-senha forte produzida pelo método
 [Dadoware](/dadoware/Dadoware).
 
-O **passdrill** não salva a senha digitada, mas sim uma assinatura
-digital (*hash*) derivado da senha, através dos algoritmos **scrypt** ou
-**pbkdf2** \-- projetados para tornar os ataques de força-bruta mais
-difíceis.
-
-Veja o conteúdo do arquivo `passdrill.hash` gerado pelo exemplo acima:
-
-    scrypt:UJGFquwCLGFrD+fzrqt91UvOdcrIKhB0/pEp6Un/l48=:Xg129pYzkm5pZIgx0p1SFf6bmFCvrFB5jNGxd/Y4oB+TU/tZXWraD+g7Ui0A8t4dN4CuzYXFp9+TuOLdPlzwlg==
 
 ## Sobre o desenvolvimento
 
@@ -69,7 +72,7 @@ versão eu fiz em Python 3, e logo em seguida reescrevi em Go, para
 comparar.
 
 A versão em Go ficou cerca de 40% mais longa. Mas ela tem uma vantagem
-importante: é muito mais fácil de instalar. Go permite que eu compile o
+importante: é mais fácil de instalar. Go permite que eu compile o
 programa e distribua o executável em um único arquivo pronto para usar.
 Mesmo para quem quer inspecionar e compilar o código-fonte, Go é mais
 fácil do que Python porque as dependências externas são escritas em Go
@@ -82,11 +85,3 @@ O arquivo
 [README.md](https://github.com/ramalho/passdrill/blob/master/README.md)
 do projeto **passdrill** no Github tem uma análise mais detalhada das
 diferenças entre as versões Python e Go.
-
-### Veja também
-
--   [Boas práticas para lidar com hashes de senhas](Boas práticas para lidar com hashes de senhas)
-
-![](tag>segurança senhas golang python)
-
-\~\~DISQUS\~\~

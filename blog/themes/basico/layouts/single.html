@@ -3,7 +3,9 @@
 
 <h1>{{ .Title }}</h1>
 
-{{ .TableOfContents }}
+{{ if .Params.toc }}
+  {{ .TableOfContents }}
+{{ end }}
 
   {{ .Content }}
   {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}

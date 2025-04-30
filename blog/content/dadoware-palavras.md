@@ -1,24 +1,33 @@
 +++
 date = '2025-04-29T20:53:03-03:00'
-draft = true
+draft = false
 title = 'Dadoware: lista de palavras'
 tags =['segurança', 'senhas']
+toc = false
 +++
 
-|   | ⚀   | ⚁   | ⚂   | ⚃   | ⚄   | ⚅   |
-|--:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| ⚀ | **[11](#prefixo-11)** | **[12](#prefixo-12)** | **[13](#prefixo-13)** | **[14](#prefixo-14)** | **[15](#prefixo-15)** | **[16](#prefixo-16)** |
-| ⚁ | **[21](#prefixo-21)** | **[22](#prefixo-22)** | **[23](#prefixo-23)** | **[24](#prefixo-24)** | **[25](#prefixo-25)** | **[26](#prefixo-26)** |
-| ⚂ | **[31](#prefixo-31)** | **[32](#prefixo-32)** | **[33](#prefixo-33)** | **[34](#prefixo-34)** | **[35](#prefixo-35)** | **[36](#prefixo-36)** |
-| ⚃ | **[41](#prefixo-41)** | **[42](#prefixo-42)** | **[43](#prefixo-43)** | **[44](#prefixo-44)** | **[45](#prefixo-45)** | **[46](#prefixo-46)** |
-| ⚄ | **[51](#prefixo-51)** | **[52](#prefixo-52)** | **[53](#prefixo-53)** | **[54](#prefixo-54)** | **[55](#prefixo-55)** | **[56](#prefixo-56)** |
-| ⚅ | **[61](#prefixo-61)** | **[62](#prefixo-62)** | **[63](#prefixo-63)** | **[64](#prefixo-64)** | **[65](#prefixo-65)** | **[66](#prefixo-66)** |
-
-A lista de palavras completa está aqui, em uma única página.
+A lista de 7776 palavras para o método [Dadoware](/posts/dadoware/) está aqui, em uma única página.
 
 Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado.
 
-## Prefixo 11
+## Prefixos
+
+A lista está dividida em blocos por prefixo, formado pelo número de dois dados.
+
+Clique na tabela e nos botões para navegar pela lista.
+
+|   | ⚀   | ⚁   | ⚂   | ⚃   | ⚄   | ⚅   |
+|--:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| ⚀ | **[11](#prefixo-11-)** | **[12](#prefixo-12-)** | **[13](#prefixo-13-)** | **[14](#prefixo-14-)** | **[15](#prefixo-15-)** | **[16](#prefixo-16-)** |
+| ⚁ | **[21](#prefixo-21-)** | **[22](#prefixo-22-)** | **[23](#prefixo-23-)** | **[24](#prefixo-24-)** | **[25](#prefixo-25-)** | **[26](#prefixo-26-)** |
+| ⚂ | **[31](#prefixo-31-)** | **[32](#prefixo-32-)** | **[33](#prefixo-33-)** | **[34](#prefixo-34-)** | **[35](#prefixo-35-)** | **[36](#prefixo-36-)** |
+| ⚃ | **[41](#prefixo-41-)** | **[42](#prefixo-42-)** | **[43](#prefixo-43-)** | **[44](#prefixo-44-)** | **[45](#prefixo-45-)** | **[46](#prefixo-46-)** |
+| ⚄ | **[51](#prefixo-51-)** | **[52](#prefixo-52-)** | **[53](#prefixo-53-)** | **[54](#prefixo-54-)** | **[55](#prefixo-55-)** | **[56](#prefixo-56-)** |
+| ⚅ | **[61](#prefixo-61-)** | **[62](#prefixo-62-)** | **[63](#prefixo-63-)** | **[64](#prefixo-64-)** | **[65](#prefixo-65-)** | **[66](#prefixo-66-)** |
+
+
+
+## Prefixo 11 [⏫](#prefixos)
 
 | **111...**  | **112...**  | **113...**  | **114...**  | **115...**  | **116...**  
 |-----|-----|-----|-----|-----|-----
@@ -59,9 +68,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **11165** abonar | **11265** aceno | **11365** açude | **11465** adorno | **11565** afinco | **11665** agravar |
 | **11166** abono | **11266** acento | **11366** acudir | **11466** adquirir | **11566** afirmar | **11666** agravo |
 
-<!--LINKTOPO-->
 
-## Prefixo 12
+## Prefixo 12 [⏫](#prefixos)
 
 | **121...**  | **122...**  | **123...**  | **124...**  | **125...**  | **126...**  
 |-----|-----|-----|-----|-----|-----
@@ -102,9 +110,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **12165** alarde | **12265** alento | **12365** alma | **12465** amaciar | **12565** amiudar | **12665** andante |
 | **12166** alargar | **12266** alergia | **12366** almeida | **12466** amado | **12566** amiúde | **12666** andar |
 
-<!--LINKTOPO-->
 
-## Prefixo 13
+## Prefixo 13 [⏫](#prefixos)
 
 | **131...**  | **132...**  | **133...**  | **134...**  | **135...**  | **136...**  
 |-----|-----|-----|-----|-----|-----
@@ -145,9 +152,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **13165** ansioso | **13265** apegar | **13365** aptidão | **13465** arder | **13565** aro | **13665** arsenal |
 | **13166** anta | **13266** apego | **13366** apto | **13466** ardil | **13566** aroeira | **13666** arte |
 
-<!--LINKTOPO-->
 
-## Prefixo 14
+## Prefixo 14 [⏫](#prefixos)
 
 | **141...**  | **142...**  | **143...**  | **144...**  | **145...**  | **146...**  
 |-----|-----|-----|-----|-----|-----
@@ -188,9 +194,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **14165** assobio | **14265** atingir | **14365** augusto | **14465** aversão | **14565** azulado | **14665** bainha |
 | **14166** assolar | **14266** atinjir | **14366** aula | **14466** avessa | **14566** azulão | **14666** bairro |
 
-<!--LINKTOPO-->
 
-## Prefixo 15
+## Prefixo 15 [⏫](#prefixos)
 
 | **151...**  | **152...**  | **153...**  | **154...**  | **155...**  | **156...**  
 |-----|-----|-----|-----|-----|-----
@@ -231,9 +236,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **15165** bandeira | **15265** barrete | **15365** batuque | **15465** benigno | **15565** binário | **15665** bocejo |
 | **15166** bandeja | **15266** barrica | **15366** batuta | **15466** bento | **15566** bingo | **15666** boda |
 
-<!--LINKTOPO-->
 
-## Prefixo 16
+## Prefixo 16 [⏫](#prefixos)
 
 | **161...**  | **162...**  | **163...**  | **164...**  | **165...**  | **166...**  
 |-----|-----|-----|-----|-----|-----
@@ -274,9 +278,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **16165** bombear | **16265** botica | **16365** brilho | **16465** bufo | **16565** cabelo | **16665** café |
 | **16166** bombo | **16266** botija | **16366** brim | **16466** bugalho | **16566** caber | **16666** caiado |
 
-<!--LINKTOPO-->
 
-## Prefixo 21
+## Prefixo 21 [⏫](#prefixos)
 
 | **211...**  | **212...**  | **213...**  | **214...**  | **215...**  | **216...**  
 |-----|-----|-----|-----|-----|-----
@@ -317,9 +320,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **21165** calisto | **21265** canapé | **21365** cantor | **21465** carão | **21565** carregar | **21665** casório |
 | **21166** calma | **21266** canário | **21366** cantora | **21466** carapau | **21566** carreira | **21666** casota |
 
-<!--LINKTOPO-->
 
-## Prefixo 22
+## Prefixo 22 [⏫](#prefixos)
 
 | **221...**  | **222...**  | **223...**  | **224...**  | **225...**  | **226...**  
 |-----|-----|-----|-----|-----|-----
@@ -360,9 +362,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **22165** cavado | **22265** cenário | **22365** cerveja | **22465** chato | **22565** chita | **22665** cifra |
 | **22166** cavador | **22266** cenho | **22366** césar | **22466** chave | **22566** choça | **22666** cifrar |
 
-<!--LINKTOPO-->
 
-## Prefixo 23
+## Prefixo 23 [⏫](#prefixos)
 
 | **231...**  | **232...**  | **233...**  | **234...**  | **235...**  | **236...**  
 |-----|-----|-----|-----|-----|-----
@@ -403,9 +404,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **23165** cisne | **23265** cloreto | **23365** coisa | **23465** coma | **23565** condão | **23665** convés |
 | **23166** citação | **23266** cloro | **23366** coiso | **23466** comadre | **23566** conde | **23666** convexo |
 
-<!--LINKTOPO-->
 
-## Prefixo 24
+## Prefixo 24 [⏫](#prefixos)
 
 | **241...**  | **242...**  | **243...**  | **244...**  | **245...**  | **246...**  
 |-----|-----|-----|-----|-----|-----
@@ -446,9 +446,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **24165** córnea | **24265** costela | **24365** cravado | **24465** criticar | **24565** cultor | **24665** custa |
 | **24166** corneta | **24266** costume | **24366** cravar | **24466** crítico | **24566** cultura | **24666** custar |
 
-<!--LINKTOPO-->
 
-## Prefixo 25
+## Prefixo 25 [⏫](#prefixos)
 
 | **251...**  | **252...**  | **253...**  | **254...**  | **255...**  | **256...**  
 |-----|-----|-----|-----|-----|-----
@@ -489,9 +488,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **25165** debelar | **25265** degas | **25365** depender | **25465** despesa | **25565** diacho | **25665** disco |
 | **25166** debicar | **25266** degelo | **25366** depois | **25466** despido | **25566** diáfano | **25666** discurso |
 
-<!--LINKTOPO-->
 
-## Prefixo 26
+## Prefixo 26 [⏫](#prefixos)
 
 | **261...**  | **262...**  | **263...**  | **264...**  | **265...**  | **266...**  
 |-----|-----|-----|-----|-----|-----
@@ -532,9 +530,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **26165** dizimar | **26265** doninha | **26365** ducado | **26465** edema | **26565** elevado | **26665** emitir |
 | **26166** DJ | **26266** dono | **26366** ducha | **26466** éden | **26566** elevar | **26666** emoção |
 
-<!--LINKTOPO-->
 
-## Prefixo 31
+## Prefixo 31 [⏫](#prefixos)
 
 | **311...**  | **312...**  | **313...**  | **314...**  | **315...**  | **316...**  
 |-----|-----|-----|-----|-----|-----
@@ -575,9 +572,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **31165** enfoque | **31265** entanto | **31365** epopeia | **31465** escavar | **31565** esmagar | **31665** espojar |
 | **31166** engajar | **31266** então | **31366** equação | **31466** escoar | **31566** esmalte | **31666** espólio |
 
-<!--LINKTOPO-->
 
-## Prefixo 32
+## Prefixo 32 [⏫](#prefixos)
 
 | **321...**  | **322...**  | **323...**  | **324...**  | **325...**  | **326...**  
 |-----|-----|-----|-----|-----|-----
@@ -618,9 +614,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **32165** estante | **32265** estouro | **32365** euforia | **32465** exibir | **32565** fã | **32665** falcão |
 | **32166** estar | **32266** estrada | **32366** eurásio | **32466** exigido | **32566** fabiano | **32666** falecer |
 
-<!--LINKTOPO-->
 
-## Prefixo 33
+## Prefixo 33 [⏫](#prefixos)
 
 | **331...**  | **332...**  | **333...**  | **334...**  | **335...**  | **336...**  
 |-----|-----|-----|-----|-----|-----
@@ -661,9 +656,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **33165** farra | **33265** feijão | **33365** fértil | **33465** fígado | **33565** finito | **33665** flexão |
 | **33166** farrapo | **33266** feira | **33366** ferver | **33466** figo | **33566** fino | **33666** floco |
 
-<!--LINKTOPO-->
 
-## Prefixo 34
+## Prefixo 34 [⏫](#prefixos)
 
 | **341...**  | **342...**  | **343...**  | **344...**  | **345...**  | **346...**  
 |-----|-----|-----|-----|-----|-----
@@ -704,9 +698,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **34165** folgado | **34265** forte | **34365** freio | **34465** fuga | **34565** furioso | **34665** galgar |
 | **34166** folgar | **34266** fortuna | **34366** freira | **34466** fugaz | **34566** furna | **34666** galgo |
 
-<!--LINKTOPO-->
 
-## Prefixo 35
+## Prefixo 35 [⏫](#prefixos)
 
 | **351...**  | **352...**  | **353...**  | **354...**  | **355...**  | **356...**  
 |-----|-----|-----|-----|-----|-----
@@ -747,9 +740,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **35165** garfo | **35265** gelado | **35365** gigante | **35465** golear | **35565** grafar | **35665** grilo |
 | **35166** gargalo | **35266** gelar | **35366** gin | **35466** goleiro | **35566** grafia | **35666** gringo |
 
-<!--LINKTOPO-->
 
-## Prefixo 36
+## Prefixo 36 [⏫](#prefixos)
 
 | **361...**  | **362...**  | **363...**  | **364...**  | **365...**  | **366...**  
 |-----|-----|-----|-----|-----|-----
@@ -790,9 +782,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **36165** h | **36265** hiato | **36365** horror | **36465** idóneo | **36565** imolar | **36665** incluir |
 | **36166** hã | **36266** híbrido | **36366** horta | **36466** idoso | **36566** imoral | **36666** incolor |
 
-<!--LINKTOPO-->
 
-## Prefixo 41
+## Prefixo 41 [⏫](#prefixos)
 
 | **411...**  | **412...**  | **413...**  | **414...**  | **415...**  | **416...**  
 |-----|-----|-----|-----|-----|-----
@@ -833,9 +824,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **41165** influir | **41265** inteira | **41365** ira | **41465** janeiro | **41565** jogado | **41665** jungle |
 | **41166** influxo | **41266** inteiro | **41366** irado | **41466** janela | **41566** jogador | **41666** júnior |
 
-<!--LINKTOPO-->
 
-## Prefixo 42
+## Prefixo 42 [⏫](#prefixos)
 
 | **421...**  | **422...**  | **423...**  | **424...**  | **425...**  | **426...**  
 |-----|-----|-----|-----|-----|-----
@@ -876,9 +866,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **42165** ladeado | **42265** lanche | **42365** lato | **42465** leitor | **42565** levado | **42665** ligado |
 | **42166** ladear | **42266** lanço | **42366** latrina | **42466** leitora | **42566** levantar | **42666** ligar |
 
-<!--LINKTOPO-->
 
-## Prefixo 43
+## Prefixo 43 [⏫](#prefixos)
 
 | **431...**  | **432...**  | **433...**  | **434...**  | **435...**  | **436...**  
 |-----|-----|-----|-----|-----|-----
@@ -919,9 +908,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **43165** lise | **43265** lógica | **43365** louvar | **43465** luzente | **43565** mágoa | **43665** maluco |
 | **43166** liso | **43266** lógico | **43366** louvor | **43466** luzidio | **43566** magoado | **43666** malva |
 
-<!--LINKTOPO-->
 
-## Prefixo 44
+## Prefixo 44 [⏫](#prefixos)
 
 | **441...**  | **442...**  | **443...**  | **444...**  | **445...**  | **446...**  
 |-----|-----|-----|-----|-----|-----
@@ -962,9 +950,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **44165** mansão | **44265** marina | **44365** matinal | **44465** médio | **44565** mentor | **44665** mg |
 | **44166** manso | **44266** marinha | **44366** matiné | **44466** medir | **44566** menu | **44666** miar |
 
-<!--LINKTOPO-->
 
-## Prefixo 45
+## Prefixo 45 [⏫](#prefixos)
 
 | **451...**  | **452...**  | **453...**  | **454...**  | **455...**  | **456...**  
 |-----|-----|-----|-----|-----|-----
@@ -1005,9 +992,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **45165** minoria | **45265** mocinho | **45365** molusco | **45465** morno | **45565** mula | **45665** mútuo |
 | **45166** minúcia | **45266** moço | **45366** monarca | **45466** moroso | **45566** mulata | **45666** nabo |
 
-<!--LINKTOPO-->
 
-## Prefixo 46
+## Prefixo 46 [⏫](#prefixos)
 
 | **461...**  | **462...**  | **463...**  | **464...**  | **465...**  | **466...**  
 |-----|-----|-----|-----|-----|-----
@@ -1048,9 +1034,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **46165** nave | **46265** nevada | **46365** nominal | **46465** nublado | **46565** ocaso | **46665** oleiro |
 | **46166** navegar | **46266** nevão | **46366** nonato | **46466** nuca | **46566** oceano | **46666** óleo |
 
-<!--LINKTOPO-->
 
-## Prefixo 51
+## Prefixo 51 [⏫](#prefixos)
 
 | **511...**  | **512...**  | **513...**  | **514...**  | **515...**  | **516...**  
 |-----|-----|-----|-----|-----|-----
@@ -1091,9 +1076,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **51165** opinar | **51265** ornado | **51365** ovário | **51465** paio | **51565** panela | **51665** pardo |
 | **51166** opinião | **51266** ornar | **51366** ovelha | **51466** paiol | **51566** pânico | **51666** parecer |
 
-<!--LINKTOPO-->
 
-## Prefixo 52
+## Prefixo 52 [⏫](#prefixos)
 
 | **521...**  | **522...**  | **523...**  | **524...**  | **525...**  | **526...**  
 |-----|-----|-----|-----|-----|-----
@@ -1134,9 +1118,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **52165** pastar | **52265** pé | **52365** pelota | **52465** perda | **52565** pescado | **52665** piegas |
 | **52166** pastel | **52266** peão | **52366** pelotão | **52466** perdão | **52566** pescar | **52666** pigarro |
 
-<!--LINKTOPO-->
 
-## Prefixo 53
+## Prefixo 53 [⏫](#prefixos)
 
 | **531...**  | **532...**  | **533...**  | **534...**  | **535...**  | **536...**  
 |-----|-----|-----|-----|-----|-----
@@ -1177,9 +1160,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **53165** pipi | **53265** planta | **53365** poema | **53465** pompa | **53565** pós | **53665** praia |
 | **53166** pipoca | **53266** plantão | **53366** poente | **53466** pomposo | **53566** posar | **53666** prancha |
 
-<!--LINKTOPO-->
 
-## Prefixo 54
+## Prefixo 54 [⏫](#prefixos)
 
 | **541...**  | **542...**  | **543...**  | **544...**  | **545...**  | **546...**  
 |-----|-----|-----|-----|-----|-----
@@ -1220,9 +1202,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **54165** prenhe | **54265** procurar | **54365** psicose | **54465** puxar | **54565** querela | **54665** radical |
 | **54166** prensa | **54266** pródigo | **54366** pub | **54466** q | **54566** querer | **54666** radicar |
 
-<!--LINKTOPO-->
 
-## Prefixo 55
+## Prefixo 55 [⏫](#prefixos)
 
 | **551...**  | **552...**  | **553...**  | **554...**  | **555...**  | **556...**  
 |-----|-----|-----|-----|-----|-----
@@ -1263,9 +1244,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **55165** rápido | **55265** rebelde | **55365** recreio | **55465** regaço | **55565** relento | **55665** renegar |
 | **55166** rapina | **55266** rebento | **55366** recriar | **55466** regalar | **55566** reler | **55666** renhido |
 
-<!--LINKTOPO-->
 
-## Prefixo 56
+## Prefixo 56 [⏫](#prefixos)
 
 | **561...**  | **562...**  | **563...**  | **564...**  | **565...**  | **566...**  
 |-----|-----|-----|-----|-----|-----
@@ -1306,9 +1286,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **56165** resolver | **56265** reverso | **56365** rir | **56465** rodagem | **56565** roncar | **56665** rude |
 | **56166** respeito | **56266** revés | **56366** risada | **56466** rodapé | **56566** ronco | **56666** rudeza |
 
-<!--LINKTOPO-->
 
-## Prefixo 61
+## Prefixo 61 [⏫](#prefixos)
 
 | **611...**  | **612...**  | **613...**  | **614...**  | **615...**  | **616...**  
 |-----|-----|-----|-----|-----|-----
@@ -1349,9 +1328,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **61165** sabor | **61265** saldo | **61365** sapato | **61465** secreta | **61565** semanal | **61665** serenar |
 | **61166** sabre | **61266** saleiro | **61366** sapé | **61466** secreto | **61566** semear | **61666** sereno |
 
-<!--LINKTOPO-->
 
-## Prefixo 62
+## Prefixo 62 [⏫](#prefixos)
 
 | **621...**  | **622...**  | **623...**  | **624...**  | **625...**  | **626...**  
 |-----|-----|-----|-----|-----|-----
@@ -1392,9 +1370,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **62165** sexto | **62265** sino | **62365** sobral | **62465** solta | **62565** sorteio | **62665** suceder |
 | **62166** sezão | **62266** sinopse | **62366** sobrar | **62466** soltar | **62566** sorver | **62666** sucesso |
 
-<!--LINKTOPO-->
 
-## Prefixo 63
+## Prefixo 63 [⏫](#prefixos)
 
 | **631...**  | **632...**  | **633...**  | **634...**  | **635...**  | **636...**  
 |-----|-----|-----|-----|-----|-----
@@ -1435,9 +1412,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **63165** superior | **63265** tabuada | **63365** tanque | **63465** tecelão | **63565** tenente | **63665** tesoura |
 | **63166** supetão | **63266** taça | **63366** tanto | **63466** tecer | **63566** tênis | **63666** tesouro |
 
-<!--LINKTOPO-->
 
-## Prefixo 64
+## Prefixo 64 [⏫](#prefixos)
 
 | **641...**  | **642...**  | **643...**  | **644...**  | **645...**  | **646...**  
 |-----|-----|-----|-----|-----|-----
@@ -1478,9 +1454,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **64165** tinha | **64265** todavia | **64365** tornar | **64465** traidor | **64565** trêmulo | **64665** troféu |
 | **64166** tinir | **64266** todo | **64366** tornear | **64466** trair | **64566** três | **64666** trófico |
 
-<!--LINKTOPO-->
 
-## Prefixo 65
+## Prefixo 65 [⏫](#prefixos)
 
 | **651...**  | **652...**  | **653...**  | **654...**  | **655...**  | **656...**  
 |-----|-----|-----|-----|-----|-----
@@ -1521,9 +1496,8 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **65165** túnel | **65265** úmido | **65365** usuário | **65465** valsa | **65565** vazar | **65665** venture |
 | **65166** túnica | **65266** unânime | **65366** usura | **65466** valva | **65566** vazio | **65666** ver |
 
-<!--LINKTOPO-->
 
-## Prefixo 66
+## Prefixo 66 [⏫](#prefixos)
 
 | **661...**  | **662...**  | **663...**  | **664...**  | **665...**  | **666...**  
 |-----|-----|-----|-----|-----|-----
@@ -1564,5 +1538,5 @@ Assim fica fácil imprimir ou salvar a lista para usar mesmo sem estar conectado
 | **66165** vexado | **66265** vilão | **66365** virtude | **66465** voejar | **66565** xá | **66665** zumbir |
 | **66166** vez | **66266** vilar | **66366** visado | **66466** voga | **66566** xadrez | **66666** zunir |
 
-<!--LINKTOPO-->
 
+**Voltar para o topo [⏫](#prefixos)**

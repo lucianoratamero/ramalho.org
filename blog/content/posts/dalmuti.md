@@ -3,6 +3,7 @@ date = '2025-04-26T22:39:47-03:00'
 draft = false
 title = 'O Grande Dalmuti (jogo)'
 tags = ['jogos', 'baralho']
+toc = true
 +++
 
 Um jogo de vazas simples, rápido e inteligente criado por Richard Garfield
