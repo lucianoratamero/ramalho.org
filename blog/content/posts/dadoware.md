@@ -13,12 +13,14 @@ para sortear palavras e formar uma **frase-senha** (*passphrase*).
 Se já sabe como usar, vá direto para 
 [dadoware-palavras](/dadoware-palavras).
 
-O método original Diceware™ foi inventado por Arnold G. Reinhold.
+O método original 
+[Diceware™](http://world.std.com/~reinhold/diceware.html) foi inventado por Arnold G. Reinhold.
 A parte mais complicada é ter uma lista de
 palavras para sortear lançando 5 dados. A lista precisa ter exatamente
-6<sup>5</sup> (7.776) palavras familiares. No site original do
-[Diceware](http://world.std.com/~reinhold/diceware.html) não havia uma
-lista de palavras em português, então eu e colegas da Thoughtworks Brasil
+6<sup>5</sup> (7.776) palavras familiares.
+No [site original](http://world.std.com/~reinhold/diceware.html)
+não havia uma lista de palavras em português,
+então eu e colegas da Thoughtworks Brasil
 criamos a lista [dadoware-palavras](/dadoware-palavras).
 
 Você pode (e deve!) usar um gerenciador de senhas para criar e armazenar
@@ -154,23 +156,34 @@ problemas práticos:
   forma fácil de gerar números, mas seu uso exige uma lista de palavras
   numerada especialmente, para facilitar.
 
-
 Se você tentar usar o dicionário Houaiss para criar suas frases-senha,
 vai descobrir que não é fácil sortear uma palavra de forma segura e
 realmente aleatória, sem usar o computador. Além disso, a maioria das
 palavras sorteadas provavelmente serão pouco familiares ou mesmo
 totalmente desconhecidas para você, dificultado a memorização.
 
+### Posso escolher palavraas da lista sem jogar dados?
+
+Se você fizer isso, não terá palavrasa aleatórias,
+e a frase-senha poderá ser muito mais fácil de adivinhar.
+
+Ao escolher palavras intencionalmente, a tendência é formar frases
+gramaticalmente corretas, com sujeito, verbo, objeto.
+Isso enfraquece bastante a frase-senha.
+
+Pelo mesmo motivo, é melhor não reordenar as palavras sorteadas,
+mas sim usá-las na ordem em que foram sorteadas.
+
 ### Porque não usar um aplicativo para gerar senhas?
 
 Na verdade, eu uso um aplicativo para gerar senhas: o
-gerenciador de senhas 1Password. Porém você precisa de
+gerenciador de senhas 1Password. Mas você precisa de
 uma senha para abrir o gerenciador de senhas!
 
 Além disso, para ter máxima
 confiança em uma frase-senha, prefiro não usar o computador na hora de
 criá-la—porque um software pode estar comprometido de várias formas,
-até mesmo o gerador de números aleatórios.
+até mesmo a função que gera números aleatórios na sua linguagem favorita.
 
 É por isso que a [lista de palavras](/dadoware-palavras) está
 toda em uma página só: você pode imprimi-la, ou salvar o HTML para criar
@@ -178,13 +191,15 @@ senhas mesmo sem uma conexão com a internet.
 
 ## Sobre o Dadoware
 
-O **Dadoware** foi criado pela ThoughtWorks em 2016 como um livreto de
-40 páginas para ser distribuído na [CryptoRave](https://cryptorave.org/)
-e em outros eventos. Eu escrevi o texto e fiz o lay-out do miolo do
+O **Dadoware** foi criado por um time da ThoughtWorks Brasil em 2016 como um livreto de
+40 páginas que foi distribuído na [CryptoRave](https://cryptorave.org/)
+e em outros eventos.
+Eu escrevi o texto e fiz o lay-out do miolo do
 livreto, com a ajuda do [Denis
-Costa](https://twitter.com/deniscostadsc). A designer Letícia Nunes,
-nossa colega na ThoughtWorks, fez a capa. Vários colegas da ThoughtWorks
-ajudaram a revisar a lista de palavras.
+Costa](https://twitter.com/deniscostadsc).
+Cada prefixo de dois dados era uma página na lista de palavras.
+A Letícia Nunes fez a capa.
+Outros colegas da ThoughtWorks ajudaram a revisar a lista de palavras.
 
 O livreto **Dadoware** foi publicado sob a licença CC BY-NC 3.0 BR
 (Creative Commons Atribuição-Não Comercial 3.0 Brasil).
