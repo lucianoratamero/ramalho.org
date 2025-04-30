@@ -13,15 +13,19 @@ para sortear palavras e formar uma **frase-senha** (*passphrase*).
 Se já sabe como usar, vá direto para 
 [dadoware-palavras](/dadoware-palavras).
 
+O método original Diceware™ foi inventado por Arnold G. Reinhold.
+A parte mais complicada é ter uma lista de
+palavras para sortear lançando 5 dados. A lista precisa ter exatamente
+6<sup>5</sup> (7.776) palavras familiares. No site original do
+[Diceware](http://world.std.com/~reinhold/diceware.html) não havia uma
+lista de palavras em português, então eu e colegas da Thoughtworks Brasil
+criamos a lista [dadoware-palavras](/dadoware-palavras).
+
 Você pode (e deve!) usar um gerenciador de senhas para criar e armazenar
 senhas fortes para todas as suas contas. Mas para abrir o gerenciador
 de senhas de senhas o ideal é usar uma frase-senha.
 Ela funciona como uma espécie de "chave mestra" que você
 precisa memorizar.
-
-Há uma [tirinha do XKCD](https://xkcd.com/936/) (em inglês) que explica
-matematicamente porque uma senha formada por várias palavras é melhor que uma senha
-tipo `Tr0v4dor&3`.
 
 Uma frase-senha é formada por várias palavras, e é bem mais longa que
 uma senha comum. Se composta de palavras familiares, uma frase-senha
@@ -29,13 +33,10 @@ pode ser mais fácil de lembrar que um monte de caracteres estranhos. E
 se todas as palavras forem escolhidas de forma aleatória, será bem
 difícil de quebrar.
 
-O método original Diceware™ foi inventado por Arnold G. Reinhold, autor
-de livros sobre informática. A parte mais complicada é ter uma lista de
-palavras para sortear lançando 5 dados. A lista precisa ter exatamente
-6<sup>5</sup> (7.776) palavras familiares. No site original do
-[Diceware](http://world.std.com/~reinhold/diceware.html) não há uma
-lista de palavras em português, então eu e colegas da Thoughtworks Brasil
-criamos a lista [dadoware-palavras](/dadoware-palavras)
+
+Há uma [tirinha do XKCD](https://xkcd.com/936/) (em inglês) que explica
+matematicamente porque uma senha formada por várias palavras é melhor que uma senha
+tipo `Tr0v4dor&3`.
 
 Para praticar a digitação da sua frase-senha com segurança no terminal
 do seu computador, use o [passdrill](/posts/passdrill).
