@@ -1,6 +1,6 @@
 +++
 date = '2025-04-26T18:03:20-03:00'
-draft = true
+draft = false
 title = 'Eleusis: um jogo de raciocínio indutivo'
 tags = ['jogos', 'baralho']
 toc = true
@@ -437,18 +437,18 @@ o algoritmo para se pontuar Deus é assim:
 1.  Vamos chamar de `P` os pontos marcados pelo jogador que fez o maior
     número de pontos (pode ser o Profeta).
 2.  Conte a quantidade de cartas (certas e erradas) que antecedem a
-    ascensão do Profeta e multiplica-se esse total por 2. Vamos chamar
+    ascensão do Profeta e multiplique por 2. Vamos chamar
     de `A` o resultado dessa operação.
-3.  Deus receberá o será o menor valor entre `P` e `A`.
+3.  Deus receberá o será o menor valor entre `P` e `A`
 
 #### Exemplo:
 
-* O Profeta foi o jogador que marcou mais pontos (`P = 39`).
+* O Profeta foi o jogador que marcou mais pontos: `P = 39`
 
-* Antes da ascenção do Profeta haviam 14 cartas na mesa
-(fila principal e colunas de erros), então `A = 14 × 2 = 28`.
+* Antes da ascenção do Profeta havia 14 cartas na mesa
+(fila principal e colunas de erros), então:<br> `A = 14 × 2 = 28`
 
-* Deus recebe 28 pontos (`min(P, A)`).
+* Deus recebe 28 pontos: `min(P, A)`
 
 > 👉 **Dica**: O Profeta é o único jogador que pode marcar mais pontos que
 Deus em uma mão. E a diferença aumenta quando mais cedo o Profeta se declarar.
@@ -473,4 +473,4 @@ Ao final dessa mão, a pontuação ficou assim:
 | **Rui**    | 14    | 3     | `Max` menos 14 (suas cartas). |
 | **Mario**  | 0     | 21    | Bateu: ganha 4 pontos de bônus + `Max`. |
 | **Clara**  | 9     | 42    | `Max` menos 9 (suas cartas) mais bônus de cartas jogadas no período em que foi Profeta: 12 cartas na fileira principal e 11 nas colunas de erros:<br>`8 + 12 + (11 × 2) = 42` |
-| **Luis** (Deus)  | -     | 38    | O maior número de pontos na mão foi 42. <BR>Antes de Clara virar Profeta, havia 19 cartas na mesa. 19 × 2 = 38.<br>A pontuação do Deus é o menor entre 42 e 38.|
+| **Luis** (Deus)  | -     | 38    | O maior número de pontos na mão foi 42. <BR>Antes de Clara virar Profeta, havia 19 cartas na mesa: `19 × 2 = 38`<br>A pontuação do Deus é o menor entre 42 e 38.|
