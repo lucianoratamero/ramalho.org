@@ -1,12 +1,16 @@
-# Passdrill: para praticar senhas fortes
++++
+date = '2025-04-29T21:02:35-03:00'
+draft = true
+title = 'Passdrill: para praticar senhas fortes'
++++
 
 Você pode usar o [Dadoware](/dadoware/Dadoware) para criar uma
 frase-senha forte, mas para usá-la no dia-a-dia ainda vai precisar:
 
--   memorizar a senha;
--   aprender a digitá-lo de forma rápida e confiável.
+- memorizar a senha;
+- aprender a digitá-lo de forma rápida e confiável.
 
-**Passdrill** permite que você pratique a digitação de uma senha longa
+Com **Passdrill**, você pratica a digitação de uma senha longa
 em um ambiente seguro: seu console local.
 
 Repositório com o programa: <https://github.com/ramalho/passdrill>

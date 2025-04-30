@@ -1,7 +1,7 @@
 +++
 date = '2025-04-26T22:39:47-03:00'
 draft = false
-title = 'The Great Dalmuti (jogo)'
+title = 'O Grande Dalmuti (jogo)'
 tags = ['jogos', 'baralho']
 +++
 
@@ -11,9 +11,15 @@ Um jogo de vazas simples, rápido e inteligente criado por Richard Garfield
 O jogo foi lançado originalmente com o título "The Great Dalmuti", com uma
 temática medieval e um baralho com 78 cartas de 1 a 12, mais 2 curingas,
 bom para até 6 jogadores.
+
 Depois foi relançado como "Dilbert Corporate Shuffle", ilustrado com personagens
 de Scott Adams, e um baralho com 55 cartas de 1 a 10, mais 2 curingas e 3 cartas especiais,
 limitado a 4 jogadores.
+
+Existe uma variante tradicional conhecida como "Presidente",
+que usa 2 baralhos completos. Mas a quantidade diferente de
+cartas torna o "Dalmuti" mais estratégico, porque fica
+mais fácil contar as cartas mais raras e poderosas.
 
 > **Nota**: Estas regras não são uma tradução do original.
 Descrevi com minhas palavras a minha variante preferida, testada muitas vezes.
