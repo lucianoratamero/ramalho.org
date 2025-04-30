@@ -19,7 +19,7 @@ digital (*hash*) derivada da senha, através dos algoritmos **scrypt** ou
 **pbkdf2**—projetados para tornar os ataques de força-bruta mais
 difíceis.
 
-Veja o conteúdo do arquivo `passdrill.hash` gerado pelo exemplo acima:
+Veja o conteúdo do arquivo `passdrill.hash` gerado pelo exemplo abaixo:
 
     scrypt:UJGFquwCLGFrD+fzrqt91UvOdcrIKhB0/pEp6Un/l48=:Xg129pYzkm5pZIgx0p1SFf6bmFCvrFB5jNGxd/Y4oB+TU/tZXWraD+g7Ui0A8t4dN4CuzYXFp9+TuOLdPlzwlg==
 
