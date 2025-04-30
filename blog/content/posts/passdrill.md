@@ -59,8 +59,8 @@ comando `passdrill -s`, assim:
     Confirm (y/n): y
     Passphrase hash saved to passdrill.hash
 
-Neste exemplo, a senha a ser praticada é *\"galera ama excitar muito
-subir comicio\"* (uma frase-senha forte produzida pelo método
+Neste exemplo, a senha a ser praticada é "galera ama excitar muito
+subir comicio" (uma frase-senha forte produzida pelo método
 [Dadoware](/dadoware/Dadoware).
 
 
