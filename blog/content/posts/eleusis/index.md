@@ -18,6 +18,9 @@ em 1956, e depois aperfeiçoado em colaboração com
 Martin D. Kruskal e John Jaworski até a versão descrita aqui, chamada Novo
 Eleusis, publicada em 1977.
 
+Minha referência foi o livro Jogos de Cartas, da coleção Todos os Jogos da Abril,
+de onde vieram muitas frases neste texto.
+
 ## Objetivos
 
 * Marcar pontos livrando-se de todas as suas cartas antes dos demais jogadores.
