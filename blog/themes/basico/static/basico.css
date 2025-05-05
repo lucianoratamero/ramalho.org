@@ -9,7 +9,7 @@ code {
 pre:has(code) {
     background-color: #222;
     position: relative;
-    width: 100vw;
+    width: fit-content;
     max-width: none;
     box-sizing: border-box;
     padding: 0.5em;

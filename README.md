@@ -5,7 +5,7 @@
 ### Criei a estrutura
 
 ```
-% hugo new site blog 
+% hugo new site blog
 Congratulations! Your new Hugo site was created in /Users/luciano/prj/ramalho.or
 g/blog.
 
@@ -57,27 +57,27 @@ acessar com `curl` em outro terminal para ver o que temos.
 % hugo server
 Watching for changes in /Users/luciano/prj/ramalho.org/blog/{archetypes,assets,content,data,i18n,layouts,static}
 Watching for config changes in /Users/luciano/prj/ramalho.org/blog/hugo.toml
-Start building sites … 
+Start building sites …
 hugo v0.146.6+extended+withdeploy darwin/arm64 BuildDate=2025-04-20T10:58:40Z VendorInfo=brew
 
 WARN  found no layout file for "html" for kind "home": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
 WARN  found no layout file for "html" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
 
-                   | EN  
+                   | EN
 -------------------+-----
-  Pages            |  4  
-  Paginator pages  |  0  
-  Non-page files   |  0  
-  Static files     |  0  
-  Processed images |  0  
-  Aliases          |  0  
-  Cleaned          |  0  
+  Pages            |  4
+  Paginator pages  |  0
+  Non-page files   |  0
+  Static files     |  0
+  Processed images |  0
+  Aliases          |  0
+  Cleaned          |  0
 
 Built in 1 ms
 Environment: "development"
 Serving pages from disk
 Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
-Web Server is available at http://localhost:1313/ (bind address 127.0.0.1) 
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
 Press Ctrl+C to stop
 ```
 
@@ -118,7 +118,7 @@ Start building sites …
 Agora o Hugo gerou arquivos no diretório `public`.
 
 ```
-% tree public 
+% tree public
 public
 ├── categories
 │   └── index.xml
@@ -233,7 +233,7 @@ title = 'Oi'
 
 Escrevi qualquer coisa abaixo dos `+++` para poder acessar depois.
 
-Gerando o site com o comando `hugo`, 
+Gerando o site com o comando `hugo`,
 percebo que nenhum arquivo novo foi gerado em `/public`,
 e os RSS `index.html` em `categories` e `tags` não mudaram.
 
@@ -309,7 +309,7 @@ Isso cria um diretório `themes/basico` com vários subdiretórios e arquivos.
 Nenhum arquivo fora de `themes/basico` é modificado pelo comando.
 
 ```
-% tree themes 
+% tree themes
 themes
 └── basico
     ├── archetypes
@@ -379,15 +379,15 @@ theme = 'basico'
 Agora o comando `hugo` informa 19 páginas criadas!
 
 ```
-                   | EN  
+                   | EN
 -------------------+-----
-  Pages            | 19  
-  Paginator pages  |  0  
-  Non-page files   |  1  
-  Static files     |  1  
-  Processed images |  0  
-  Aliases          |  0  
-  Cleaned          |  0  
+  Pages            | 19
+  Paginator pages  |  0
+  Non-page files   |  1
+  Static files     |  1
+  Processed images |  0
+  Aliases          |  0
+  Cleaned          |  0
 ```
 
 Agora já é possível navegar pelo blog!
@@ -403,3 +403,10 @@ A próxima missão é entender a lógica da página inicial `/`: como definir qu
 
 * [Front-matter and taxonomies](https://gohugo.io/content-management/front-matter/#taxonomies)
 
+* [Hugo: Injecting an external file into a page with syntax highlighting](https://me.micahrl.com/blog/hugo-shortcode-importcode/)
+
+* [How to include code examples from file with Hugo](https://marcusolsson.dev/how-to-include-code-examples-from-file-with-hugo/)
+
+* [Include code from a file with Hugo](https://www.marcusfolkesson.se/blog/include-code-from-a-file-with-hugo/)
+
+* [Include shortcode from hugo-geekdoc](https://github.com/thegeeklab/hugo-geekdoc/blob/1bb1dab866fbd0b6bf28d2f0aaeaaced7e814fc0/layouts/shortcodes/include.html)

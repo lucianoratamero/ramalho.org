@@ -1,4 +1,9 @@
-Reinventando zip
++++
+date = '2025-05-02T18:25:34-03:00'
+title = 'Recriando Zip'
+toc = true
+draft = true
++++
 
 A instrução for do Python evita uma categoria muito comum de bugs: o erro-por-1, que o ocorre quando um laço termina no penúltimo item (deixando de processar o ultimo) ou quando se tenta ler um item além do último.
 
@@ -28,8 +33,8 @@ zip0
 
 O que faz
 
-Matriz 2d, planilha 
-Linhas na forma de tupla de células 
+Matriz 2d, planilha
+Linhas na forma de tupla de células
 
 def zip0(*iteráveis):
     if not iteráveis:
@@ -62,7 +67,7 @@ Assim que um dos iteradores esgotar , a chamada next() levanta StopIteration e z
 
 Zip em modo estrito
 
-Python segue a filosofia fail fast (falhar logo), mais do que maioria das linguagens de script. A ideia essencial de fail fast é parte do Zen do Python 
+Python segue a filosofia fail fast (falhar logo), mais do que maioria das linguagens de script. A ideia essencial de fail fast é parte do Zen do Python
 
 Errors should never pass silently.
 Unless explicitly silenced.
@@ -128,6 +133,6 @@ Daí montamos a mensagem de erro.
 Finalmente, levantamos ValudError com a mensagem apropriada.
 
 Nesse texto vimos:
-- como funcionam enumerate e zip e como eles complementam o for 
+- como funcionam enumerate e zip e como eles complementam o for
 - como a instrução yield, e as funções iter e next podem ser usadas para nos dar um controle mais manual de iteráveis e iteradores—operações que o for executa automaticamente para nós.
 
