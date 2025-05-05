@@ -5,6 +5,17 @@ toc = true
 draft = true
 +++
 
+## TLDR
+
+Aprenda a usar `range()`, `enumerate()`
+e `zip()`, e reduza o uso de `len()`
+no laço `for` em Python para evitar
+erro-por-1.
+
+## SQLVH[^1]
+
+[^1]: Senta que lá vem história.
+
 > Há 2 problemas difíceis em ciência da computação: invalidar cache, nomear coisas e errar por 1.
 <br>---*Leon Bambrick*
 
