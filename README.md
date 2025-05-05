@@ -410,3 +410,5 @@ A próxima missão é entender a lógica da página inicial `/`: como definir qu
 * [Include code from a file with Hugo](https://www.marcusfolkesson.se/blog/include-code-from-a-file-with-hugo/)
 
 * [Include shortcode from hugo-geekdoc](https://github.com/thegeeklab/hugo-geekdoc/blob/1bb1dab866fbd0b6bf28d2f0aaeaaced7e814fc0/layouts/shortcodes/include.html)
+
+* [zsh functions for hugo static site generator](https://gist.github.com/RickCogley/5673669a5c6e9b05070cd4c50e4bd50f)
