@@ -7,9 +7,8 @@ draft = true
 
 [Hugo Borges](https://garoa.net.br/wiki/Usu%C3%A1rio:Agaelebe)
 é um dos fundadores do
-[Garoa Hacker Clube](https://garoa.net.br/wiki/P%C3%A1gina_principal),
-e um associado excelente que contribui muito
-tempo, conhecimento, trabalho e equipamentos
+[Garoa Hacker Clube](https://garoa.net.br/wiki/P%C3%A1gina_principal).
+Um hacker excelente que colabora com ideias, trabalho e equipamentos
 para nosso latoratório comunitário. Esse texto não é sobre ele.
 
 [Hugo](https://gohugo.io) é um gerador de páginas estáticas para sítios Web.
@@ -27,7 +26,6 @@ as práticas de gestão de conteúdo suportadas pelo Hugo.
 
 [^1]: Um sofisticado CMS livre escrito em PHP: https://new.drupal.org/
 [^2]: Um sofisticado CMS livre escrito em Python: https://plone.org/.
-
 
 Por isso me surpreende a falta de uma boa maneira de incluir um arquivo
 dentro de uma página de conteúdo.
@@ -56,22 +54,37 @@ Nesse aspecto o Hugo é sensacional.
 Mas o que eu preciso, e o povo clama[^3], é um jeito de
 fazer algo muito mais simples que um parser de templates
 recursivo: um mísero comando para ler um arquivo do mesmo
-diretório e formatá-lo como código-fonte colorizado
-(e opcionalmente, com numeração de linhas
-(e adicionalmente, com âncoras para vincular
-texto ao redor a linhas específicas do código incluído,
-(e idealmente, permitir que a leitora edite e execute
-o código sem sair da página))).
+diretório e formatá-lo como código-fonte colorizado.
 
 [^3]: Encontrei > 3 (!!!) discussões no https://gohugo.io sobre esse tema,
 começando há mais de 10 anos e continuando até recentemente.
 
-E esse comando não existe, nem mesmo na versão
-"mísero comando" sem entrar nos parêntesis.
+E tal comando não existe.
+
+https://gohugo.io/shortcodes/
+
+https://gohugo.io/templates/shortcode/
+
+https://gohugo.io/content-management/shortcodes/
+
+https://gohugo.io/shortcodes/highlight/
+
+https://ksucs-hugo.russfeld.me/shortcodes/include/
+
+https://github.com/squidfingers/hugo-shortcodes
+
+https://mcshelby.github.io/hugo-theme-relearn/shortcodes/include/index.html
+
+
 Hugo já tem funções para ler um arquivo e para colorizar
 código fonte.
-Mas elas não podem ser usadas dentro de um
-arquivo `.md` onde eu preciso, só em templates.
+Mas elas só podem ser usadas em templates,
+e não no conteúdo escrito em Markdown, que é onde eu preciso.
+Dentro de um `.md` no Hugo, esse tipo de lógica tem que
+ser implementada como um *shortcode*, uma função escrita
+na linguagem de templates, e instalada no diretório
+`layouts/shortcodes`.
+
 
 Poderiam ter feito um *shortcode*, comando que funciona dentro
 de `.md` no Hugo, mas não fizeram. Então fui procurar.
