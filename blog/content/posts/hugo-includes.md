@@ -53,7 +53,7 @@ de diferentes modelos de páginas (templates), para facilitar
 a navegação, e a diagramação padronizada e customizável do site.
 Nesse aspecto o Hugo é sensacional.
 
-Mas o que eu preciso, e povo clama[^3], é um jeito de
+Mas o que eu preciso, e o povo clama[^3], é um jeito de
 fazer algo muito mais simples que um parser de templates
 recursivo: um mísero comando para ler um arquivo do mesmo
 diretório e formatá-lo como código-fonte colorizado
@@ -102,3 +102,10 @@ Cada uma dessas páginas apresenta o código de um shortcode:
 3. [Include code from a file with Hugo](https://www.marcusfolkesson.se/blog/include-code-from-a-file-with-hugo/)
 
 4. [Include shortcode from hugo-geekdoc](https://github.com/thegeeklab/hugo-geekdoc/blob/1bb1dab866fbd0b6bf28d2f0aaeaaced7e814fc0/layouts/shortcodes/include.html)
+
+
+```
+# 8< snippet1:
+
+# 8< snippet1
+```
