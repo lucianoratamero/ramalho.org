@@ -10,22 +10,20 @@ draft = true
 [Garoa Hacker Clube](https://garoa.net.br/wiki/P%C3%A1gina_principal),
 e um associado excelente que contribui muito
 tempo, conhecimento, trabalho e equipamentos
-para nosso latoratório comunitário.
-
-Esse texto não é sobre ele.
+para nosso latoratório comunitário. Esse texto não é sobre ele.
 
 [Hugo](https://gohugo.io) é um gerador de páginas estáticas para sítios Web.
 Foi aqui que encontrei o problema dos includes.
-Hugo é o programa que uso para publicar o https://ramalho.org.
+Esse blog eu faço com Hugo.
 
-Além de popular, fácil de instalar, e rápido,
-Hugo implementa ótimas ideias sobre arquitetura da informação,
+Além de popular, fácil de instalar e rápido,
+Hugo implementa ótimas práticas sobre arquitetura da informação,
 separação conteúdo/apresentação, gerenciamento/customização de temas.
 Seu criador, Steve Francia, havia dedicado muito tempo
 contribuindo com o Drupal[^1].
 Como especialista em sistemas de gestão de conteúdo
-e ex-instrutor de Plone[^2], eu aprecio e aproveito
-as melhores práticas de gestão de conteúdo suportadas pelo Hugo.
+e ex-instrutor de Plone[^2], aprecio e aproveito
+as práticas de gestão de conteúdo suportadas pelo Hugo.
 
 [^1]: Um sofisticado CMS livre escrito em PHP: https://new.drupal.org/
 [^2]: Um sofisticado CMS livre escrito em Python: https://plone.org/.
@@ -65,7 +63,8 @@ texto ao redor a linhas específicas do código incluído,
 (e idealmente, permitir que a leitora edite e execute
 o código sem sair da página))).
 
-[^3]: Encontrei > 3 (!!!) discussões no https://gohugo.io sobre esse tema, começando há mais de 10 anos e continuando até recentemente.
+[^3]: Encontrei > 3 (!!!) discussões no https://gohugo.io sobre esse tema,
+começando há mais de 10 anos e continuando até recentemente.
 
 E esse comando não existe, nem mesmo na versão
 "mísero comando" sem entrar nos parêntesis.
@@ -81,8 +80,8 @@ como resolvi o problema no https://ramalho.org.
 
 ## As alternativas
 
-Passei um par de horas revirando a documentação e discussões em https://gohugo.io até concluir que
-o que eu queria não existe (em 2025-05-05),
+Passei um par de horas revirando a documentação e discussões em https://gohugo.io até
+concluir que o que eu queria não existe (em 2025-05-05),
 e que a melhor solução é copiar o código de algum
 shortocode publicado na Web.[^4]
 
