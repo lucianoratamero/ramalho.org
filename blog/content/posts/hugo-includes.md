@@ -105,7 +105,7 @@ Cada uma dessas páginas apresenta o código de um shortcode:
 
 
 ```
-# 8< snippet1:
+# 8< trecho1:
 
-# 8< snippet1
+# 8< trecho1.
 ```
