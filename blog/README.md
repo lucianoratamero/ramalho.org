@@ -414,3 +414,5 @@ A próxima missão é entender a lógica da página inicial `/`: como definir qu
 * [zsh functions for hugo static site generator](https://gist.github.com/RickCogley/5673669a5c6e9b05070cd4c50e4bd50f)
 
 * [Blockquote render hooks: alerts](https://gohugo.io/render-hooks/blockquotes/#alerts)
+
+* [Making Your RSS Feeds Automatically Discoverable](https://blog.jim-nielsen.com/2021/automatically-discoverable-rss-feeds/)
