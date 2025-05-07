@@ -7,13 +7,15 @@ draft = false
 
 Érico Andrei é um grande amigo meu e da comunidade Python mundial.
 
-Em outubro temos a [Python Brasil](https://2025.pythonbrasil.org.br/)
+Em outubro teremos a [Python Brasil](https://2025.pythonbrasil.org.br/)
 em São Paulo pela 2ª vez;
 em 2024 tivemos a 
 [Plone Conference (mundial)](https://2024.ploneconf.org/en) em Brasília pela 2ª vez,
-todas organizadas pelo Érico—além de inúmeros outros eventos pelo Brasil
+todas organizadas pelo Érico—além de N outros eventos pelo Brasil
 e pelo mundo. Ele também contribui código e trabalho voluntário para
 a comunidade Plone há uns 20 anos.
+
+<!--more-->
 
 Érico estava no FISL, nas conversas para criarmos a
 [Associação Python Brasil](https://apyb.python.org.br/index.html).
@@ -44,7 +46,7 @@ Papa, se não fosse ele mesmo.
 possível. Por isso Érico é um dos desenvolvedores mais inspiradores
 com quem já tive o prazer de colaborar e tomar cervejas por aí.
 
-Quem vai suceder Franciso 🇦🇷, Érico?
+Érico: quem vai suceder Franciso 🇦🇷?
 
 > [!NOTE]
 > Como um velho nerd com TOC, pesquisei o conclave de 2005
