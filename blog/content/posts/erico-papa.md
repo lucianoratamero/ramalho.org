@@ -9,14 +9,15 @@ draft = true
 
 Em outubro temos a [Python Brasil](https://2025.pythonbrasil.org.br/)
 em São Paulo pela 2ª vez;
-em 2024 tivemos a Plone Conference (mundial) em Brasília pela 2ª vez,
+em 2024 tivemos a 
+[Plone Conference (mundial)](https://2024.ploneconf.org/en) em Brasília pela 2ª vez,
 todas organizadas pelo Érico—além de inúmeros outros eventos pelo Brasil
 e pelo mundo. Ele também contribui código e trabalho voluntário para
 a comunidade Plone há uns 20 anos.
 
 Érico estava no FISL, nas conversas para criarmos a
 [Associação Python Brasil](https://apyb.python.org.br/index.html).
-Me convenceu a ser candidato a liderar a primeira diretoria,
+Me convenceu a ser candidato para liderar a primeira diretoria,
 e convenceu os fundadores a votar na nossa chapa—a chapa única.
 
 Em abril de 2005 eu trabalhava na
