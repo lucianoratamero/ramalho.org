@@ -2,7 +2,7 @@
 date = '2025-04-29T21:02:35-03:00'
 draft = false
 title = 'Dadoware'
-tags =['segurança', 'senhas']
+tags = ['segurança', 'senhas']
 toc = true
 +++
 
