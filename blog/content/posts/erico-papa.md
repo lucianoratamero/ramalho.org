@@ -14,7 +14,7 @@ em 2024 tivemos a
 [Plone Conference (mundial)](https://2024.ploneconf.org/en) em Brasília pela 2ª vez,
 todas organizadas pelo Érico—além de N outros eventos pelo Brasil
 e pelo mundo. Ele também contribui código e trabalho voluntário para
-a comunidade Plone há uns 20 anos.
+a comunidade [Plone](https://plone.org/) há uns 20 anos.
 
 <!--more-->
 
@@ -33,7 +33,7 @@ mas por acaso eu estava no escritório da Simples em Pinheiros
 na tarde do dia 19 de abril, quando subiu a fumaça branca.
 Alguém ligou a televisão para vermos o "Habemus Papam" ao vivo.
 
-Apareceu na janela o Cardeal Jorge Medina do Chile 🇨🇱.
+Apareceu na janela o Cardeal Jorge Medina 🇨🇱.
 Antes dele abrir a boca, o Érico anunciou:
 
 — Ganhou o alemão.
