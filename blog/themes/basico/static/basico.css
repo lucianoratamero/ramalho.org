@@ -27,3 +27,8 @@ table, th, td {
 th, td {
     padding: 7px;
 }
+
+.alert-heading {
+    font-weight: bold;
+    color: #700;
+}
