@@ -2,7 +2,7 @@
 date = '2025-05-06T20:26:49-03:00'
 title = 'Érico e o novo Papa'
 toc = true
-draft = true
+draft = false
 +++
 
 Érico Andrei é um grande amigo meu e da comunidade Python mundial.
