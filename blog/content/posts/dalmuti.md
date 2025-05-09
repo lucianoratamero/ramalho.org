@@ -6,7 +6,7 @@ tags = ['jogos', 'baralho']
 toc = true
 +++
 
-Um jogo de vazas simples, rápido e inteligente criado por Richard Garfield
+Um jogo de cartas simples, rápido e inteligente criado por Richard Garfield
 (inventor do Magic).
 
 O jogo foi lançado originalmente com o título "The Great Dalmuti", com uma
