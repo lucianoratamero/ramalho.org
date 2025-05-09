@@ -6,7 +6,7 @@ draft = false
 +++
 
 Transcript of
-[«A Language Creators' Conversation"»](https://www.youtube.com/watch?v=csL8DLXGNlU&t=48m29s)
+[«A Language Creators' Conversation»](https://www.youtube.com/watch?v=csL8DLXGNlU&t=48m29s)
 recorded in April 2, 2019, with Anders Hejsberg (Turbo Pascal, Delphi, C#, TypeScript),
 James Gosling (Java), Guido Van Rossum (Python) and Larry Wall (Perl),
 hosted by Carol Willing (Jupyter Project).
