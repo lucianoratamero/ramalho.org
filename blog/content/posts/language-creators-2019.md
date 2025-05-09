@@ -7,15 +7,18 @@ draft = false
 
 Transcript of
 [«A Language Creators' Conversation»](https://www.youtube.com/watch?v=csL8DLXGNlU&t=48m29s)
-recorded in April 2, 2019, with Anders Hejsberg (Turbo Pascal, Delphi, C#, TypeScript),
+recorded April 2, 2019, with Anders Hejsberg (Turbo Pascal, Delphi, C#, TypeScript),
 James Gosling (Java), Guido Van Rossum (Python) and Larry Wall (Perl),
 hosted by Carol Willing (Jupyter Project).
 
 <!--more-->
 
-AI couldn't make a decent transcript due to bad audio quality and crosstalk.
+AI couldn't make a decent transcript due to bad audio quality.
 Ellie Leonard of Red Pencil Transcripts LLC did a heroic job.[^1]
-Enjoy! —LR
+
+Enjoy!
+
+—LR
 
 [^1]: If you find errors and/or want to contribute enhancements, please file an
 [issue or PR](https://github.com/fluentpython/language-creators/issues).
