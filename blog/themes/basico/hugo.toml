@@ -4,17 +4,17 @@ title = 'My New Hugo Site'
 
 [menus]
   [[menus.main]]
-    name = 'Raiz'
+    name = '🏠 Raiz'
     pageRef = '/'
     weight = 10
 
   [[menus.main]]
-    name = 'Posts'
+    name = '📝 Posts'
     pageRef = '/posts'
     weight = 20
 
   [[menus.main]]
-    name = 'Tags'
+    name = '🏷️ Tags'
     pageRef = '/tags'
     weight = 30
 
