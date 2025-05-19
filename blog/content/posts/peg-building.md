@@ -11,6 +11,8 @@ tags = ['programming languages']
 
 Inspired by only a partial understanding of PEG parsing I decided to build one. The result may not be a great general-purpose PEG parser generator — there are already many of those (e.g. TatSu is written in Python and generates Python code) — but it was a good way to learn about PEG, and it furthers my goal of replacing CPython’s parser with one built from a PEG grammar.
 
+<!--more-->
+
 [This is part 1 of my PEG series. See the 
 [Series Overview](/posts/peg-series) for the rest.]
 

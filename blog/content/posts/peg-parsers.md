@@ -10,6 +10,8 @@ tags = ['programming languages']
 
 Some years ago someone asked whether it would make sense to switch Python to a PEG parser. (Or a PEG grammar; I don’t recall exactly what was said by whom, or when.) I looked into it a bit and wasn’t sure what to think, so I dropped the subject. Recently I’ve learned more about PEG (Parsing Expression Grammars), and I now think it’s an interesting alternative to the home-grown parser generator that I developed 30 years ago when I started working on Python. (That parser generator, dubbed “pgen”, was just about the first piece of code I wrote for Python.)
 
+<!--more-->
+
 [This is part 1 of my PEG series. See the 
 [Series Overview](/posts/peg-series) for the rest.]
 

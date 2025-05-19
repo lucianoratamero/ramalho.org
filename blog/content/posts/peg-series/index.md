@@ -10,6 +10,8 @@ tags = ['programming languages']
 
 My series of blog posts about PEG parsing keeps expanding. Instead of updating each part to link to all other parts, here’s the table of content:
 
+<!--more-->
+
 1. [PEG Parsers](/posts/peg-parsers)
 2. [Building a PEG Parser](/posts/peg-building)
 3. Generating a PEG Parser ([original](https://medium.com/@gvanrossum_83706/generating-a-peg-parser-520057d642a9))
