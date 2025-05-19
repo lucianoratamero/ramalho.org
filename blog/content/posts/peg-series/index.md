@@ -37,6 +37,11 @@ License for this article, the series, and the code shown:
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 > [!INFO]
+> Source code for the examples is at <br>
+> https://github.com/we-like-parsers/pegen_experiments<br>
+> where [story1/]((https://github.com/we-like-parsers/pegen_experiments/tree/2210f733afd0c5450a5a5ab6412d22dccade822b/story1)) has the code for
+> [Part 2](/posts/peg-building) and so on.
+> 
 > Guido van Rossum posted this series originally
 > [on Medium.com](https://medium.com/@gvanrossum_83706/peg-parsing-series-de5d41b2ed60).
 > Thanks to the Creative Commons license he chose,
