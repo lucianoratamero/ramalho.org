@@ -93,6 +93,10 @@ class Tokenizer:
         return self.tokens[self.pos]
 ```
 
+> [!NOTE]
+> Source code for this post is on
+> [Gighub](https://github.com/we-like-parsers/pegen_experiments/tree/2210f733afd0c5450a5a5ab6412d22dccade822b/story1)
+
 Now, there are various things still missing (and the names of the methods and instance variables should really start with an underscore), but this will do as a sketch of the `Tokenizer` API.
 
 The parser also needs to become a class, so that `statement()`, `expr()` and so on can become methods. The tokenizer becomes an instance variable, but we don’t want the parsing methods to call `get_token()` directly — instead, we give the `Parser` class an `expect()` method which can succeed or fail just like a parsing method. The argument to expect() is the expected token — either a string (like `"+"`) or a token type (like `NAME`). I’ll get to the return type after discussing the parser’s output.
@@ -103,6 +107,7 @@ The Node class can be super simple:
 
 ```python
 class Node:
+
     def __init__(self, type, children):
         self.type = type
         self.children = children
@@ -115,12 +120,16 @@ To support backtracking, I wrap the tokenizer’s `mark()` and `reset()` methods
 
 ```python
 class Parser:
+
     def __init__(self, tokenizer):
         self.tokenizer = tokenizer
+
     def mark(self):
         return self.tokenizer.mark()
+
     def reset(self, pos):
         self.tokenizer.reset(pos)
+
     def expect(self, arg):
         token = self.tokenizer.peek_token()
         if token.type == arg or token.string == arg:
@@ -140,6 +149,7 @@ So here’s a sketch of the actual parser. Note that I am using Python 3.8’s w
 
 ```python
 class ToyParser(Parser):
+
     def statement(self):
         if a := self.assignment():
             return a
@@ -148,6 +158,7 @@ class ToyParser(Parser):
         if i := self.if_statement():
             return i
         return None
+
     def expr(self):
         if t := self.term():
             pos = self.mark()
@@ -161,8 +172,10 @@ class ToyParser(Parser):
             self.reset(pos)
             return t
         return None
+
     def term(self):
         # Very similar...
+
     def atom(self):
         if token := self.expect(NAME):
             return token
