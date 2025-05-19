@@ -13,7 +13,7 @@ Inspired by only a partial understanding of PEG parsing I decided to build one. 
 
 <!--more-->
 
-[This is part 1 of my PEG series. See the 
+[This is part 2 of my PEG series. See the 
 [Series Overview](/posts/peg-series) for the rest.]
 
 In this section I lay the groundwork for understanding how the generated parser works, by showing a simple hand-written parser.

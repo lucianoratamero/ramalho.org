@@ -1,5 +1,5 @@
 +++
-date = '2019-09-01'
+date = 2025-05-19
 title = 'PEG Parsing Series Overview'
 toc = false
 draft = false
@@ -14,13 +14,13 @@ My series of blog posts about PEG parsing keeps expanding. Instead of updating e
 
 1. [PEG Parsers](/posts/peg-parsers)
 2. [Building a PEG Parser](/posts/peg-building)
-3. Generating a PEG Parser ([original](https://medium.com/@gvanrossum_83706/generating-a-peg-parser-520057d642a9))
+3. [Generating a PEG Parser](/posts/peg-generate)
 4. Visualizing PEG Parsing
 5. Left-recursive PEG Grammars
 6. Adding Actions to a PEG Grammar
 7. A Meta-Grammar for PEG Parsers
 8. Implementing PEG Features
-9. PEG at the Core Developer Sprint
+9. PEG at the Core Developer Sprint ([original](https://medium.com/@gvanrossum_83706/peg-at-the-core-developer-sprint-8b23677b91e6))
 
 A video of a talk I gave about this topic at North Bay Python is up on YouTube:<br>
 [Writing a PEG parser for fun and profit](https://www.youtube.com/watch?v=QppWTvh7_sI).
