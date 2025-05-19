@@ -3,6 +3,7 @@ date = '2025-05-18T21:50:44-03:00'
 title = 'PEG Parsing Series Overview'
 toc = false
 draft = false
+tags = ['programming languages']
 +++
 
 *by Guido van Rossum*
@@ -37,6 +38,7 @@ License for this article, the series, and the code shown:
 > Guido van Rossum posted this series originally
 > [on Medium.com](https://medium.com/@gvanrossum_83706/peg-parsing-series-de5d41b2ed60).
 > Thanks to the Creative Commons license he chose,
-> I can post the series here, and also on [Github](https://github.com/ramalho/ramalho.org), using Markdown format to make it easier for
-anyone to share, so Guido's words can survive long after Medium.com is gone.
-— *LR*
+> I can post the series here, and also on [Github](https://github.com/ramalho/ramalho.org),
+> using Markdown format to make it easier for anyone to share,
+> so that people can learn from Guido long after Medium.com is gone.
+> — *LR*

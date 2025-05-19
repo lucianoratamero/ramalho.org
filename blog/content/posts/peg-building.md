@@ -3,6 +3,8 @@ date = '2025-05-18T22:26:02-03:00'
 title = 'Building a PEG Parser'
 toc = true
 draft = false
+tags = ['programming languages']
+
 +++
 
 *by Guido van Rossum*
