@@ -1,5 +1,5 @@
 +++
-date = '2025-05-08T15:56:31-03:00'
+date = '2019-04-02'
 title = 'Language Creators Panel 2019'
 toc = true
 draft = false
