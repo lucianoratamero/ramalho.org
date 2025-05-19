@@ -38,7 +38,8 @@ License for this article, the series, and the code shown:
 > Guido van Rossum posted this series originally
 > [on Medium.com](https://medium.com/@gvanrossum_83706/peg-parsing-series-de5d41b2ed60).
 > Thanks to the Creative Commons license he chose,
-> I can post the series here, and also on [Github](https://github.com/ramalho/ramalho.org),
+> I can post the series here, and also on
+> [Github](https://github.com/ramalho/ramalho.org/blob/3f0aaa6ed52710a16a78c1b52598a3641249e6df/blog/content/posts/peg-series/index.md),
 > using Markdown format to make it easier for anyone to share,
 > so that people can learn from Guido long after Medium.com is gone.
 > — *LR*
