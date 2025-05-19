@@ -1,0 +1,42 @@
++++
+date = '2025-05-18T21:50:44-03:00'
+title = 'PEG Parsing Series Overview'
+toc = false
+draft = false
++++
+
+*by Guido van Rossum*
+
+My series of blog posts about PEG parsing keeps expanding. Instead of updating each part to link to all other parts, here’s the table of content:
+
+1. [PEG Parsers](/posts/peg-parsers)
+2. [Building a PEG Parser](/posts/peg-building)
+3. Generating a PEG Parser ([original](https://medium.com/@gvanrossum_83706/generating-a-peg-parser-520057d642a9))
+4. Visualizing PEG Parsing
+5. Left-recursive PEG Grammars
+6. Adding Actions to a PEG Grammar
+7. A Meta-Grammar for PEG Parsers
+8. Implementing PEG Features
+9. PEG at the Core Developer Sprint
+
+A video of a talk I gave about this topic at North Bay Python is up on YouTube:<br>
+[Writing a PEG parser for fun and profit](https://www.youtube.com/watch?v=QppWTvh7_sI).
+
+![screenshot of pegen viewer](peg-screenshot.webp)
+
+> **Update:**
+> April 2, 2020. In case you are wondering what’s happening, we now have
+> [PEP 617](https://www.python.org/dev/peps/pep-0617/)
+> up, which proposes to replace the current parser in CPython with a PEG-based parser.
+
+© 2019, Guido van Rossum.<br>
+License for this article, the series, and the code shown:
+[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+> [!INFO]
+> Guido van Rossum posted this series originally
+> [on Medium.com](https://medium.com/@gvanrossum_83706/peg-parsing-series-de5d41b2ed60).
+> Thanks to the Creative Commons license he chose,
+> I can post the series here, and also on [Github](https://github.com/ramalho/ramalho.org), using Markdown format to make it easier for
+anyone to share, so Guido's words can survive long after Medium.com is gone.
+— *LR*
