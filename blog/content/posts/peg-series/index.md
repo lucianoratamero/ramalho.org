@@ -15,7 +15,7 @@ My series of blog posts about PEG parsing keeps expanding. Instead of updating e
 1. [PEG Parsers](/posts/peg-parsers)
 2. [Building a PEG Parser](/posts/peg-building)
 3. [Generating a PEG Parser](/posts/peg-generate)
-4. Visualizing PEG Parsing
+4. [Visualizing PEG Parsing](/posts/peg-visualize)
 5. Left-recursive PEG Grammars
 6. Adding Actions to a PEG Grammar
 7. A Meta-Grammar for PEG Parsers
@@ -25,7 +25,7 @@ My series of blog posts about PEG parsing keeps expanding. Instead of updating e
 A video of a talk I gave about this topic at North Bay Python is up on YouTube:<br>
 [Writing a PEG parser for fun and profit](https://www.youtube.com/watch?v=QppWTvh7_sI).
 
-![screenshot of pegen viewer](peg-screenshot.webp)
+![screenshot of pegen viewer](/screens/peg/screenshot.webp)
 
 > **Update:**
 > April 2, 2020. In case you are wondering what’s happening, we now have
@@ -39,7 +39,7 @@ License for this article, the series, and the code shown:
 > [!INFO]
 > Source code for the examples is at <br>
 > https://github.com/we-like-parsers/pegen_experiments<br>
-> where [story1/]((https://github.com/we-like-parsers/pegen_experiments/tree/2210f733afd0c5450a5a5ab6412d22dccade822b/story1)) has the code for
+> where [story1/](https://github.com/we-like-parsers/pegen_experiments/tree/2210f733afd0c5450a5a5ab6412d22dccade822b/story1) has the code for
 > [Part 2](/posts/peg-building) and so on.
 > 
 > Guido van Rossum posted this series originally
