@@ -16,7 +16,7 @@ My series of blog posts about PEG parsing keeps expanding. Instead of updating e
 2. [Building a PEG Parser](/posts/peg-building)
 3. [Generating a PEG Parser](/posts/peg-generate)
 4. [Visualizing PEG Parsing](/posts/peg-visualize)
-5. Left-recursive PEG Grammars
+5. [Left-recursive PEG Grammars](/posts/peg-left-recur)
 6. Adding Actions to a PEG Grammar
 7. A Meta-Grammar for PEG Parsers
 8. Implementing PEG Features

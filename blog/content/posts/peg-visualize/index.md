@@ -1,7 +1,7 @@
 +++
 date = '2019-08-11'
 title = 'Visualizing PEG Parsing'
-toc = true
+toc = false
 draft = false
 tags = ['programming languages']
 
