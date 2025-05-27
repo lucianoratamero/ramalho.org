@@ -6,7 +6,7 @@ draft = false
 tags = ['programming languages']
 +++
 
-*by Guido van Rossum*
+*by Guido van Rossum*[^1]
 
 My series of blog posts about PEG parsing keeps expanding. Instead of updating each part to link to all other parts, here’s the table of content:
 
@@ -42,11 +42,12 @@ License for this article, the series, and the code shown:
 > where [story1/](https://github.com/we-like-parsers/pegen_experiments/tree/2210f733afd0c5450a5a5ab6412d22dccade822b/story1) has the code for
 > [Part 2](/posts/peg-building) and so on.
 > 
-> Guido van Rossum posted this series originally
-> [on Medium.com](https://medium.com/@gvanrossum_83706/peg-parsing-series-de5d41b2ed60).
-> Thanks to the Creative Commons license he chose,
-> I can post the series here, and also on
-> [Github](https://github.com/ramalho/ramalho.org/blob/3f0aaa6ed52710a16a78c1b52598a3641249e6df/blog/content/posts/peg-series/index.md),
-> using Markdown format to make it easier for anyone to share,
-> so that people can learn from Guido long after Medium.com is gone.
-> — *LR*
+
+[^1]: Guido van Rossum posted this series originally
+[on Medium.com](https://medium.com/@gvanrossum_83706/peg-parsing-series-de5d41b2ed60).
+Thanks to the Creative Commons license he chose,
+I can post the series here, and also on
+[Github](https://github.com/ramalho/ramalho.org/blob/3f0aaa6ed52710a16a78c1b52598a3641249e6df/blog/content/posts/peg-series/index.md),
+using Markdown format to make it easier for anyone to share,
+so that people can learn from Guido long after Medium.com is gone.
+— *LR*
