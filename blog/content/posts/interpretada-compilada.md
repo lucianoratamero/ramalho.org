@@ -7,8 +7,7 @@ tags = ['programming languages', 'causo']
 +++
 
 Certa vez chegando nos EUA o agente de fronteira perguntou
-qual era o propósito da minha viagem,
-com aquela atitude típica de um agende de fronteira dos EUA.
+qual era o propósito da minha viagem.
 Falei que ia palestrar em um evento sobre Python e ele
 disparou:
 
@@ -32,9 +31,9 @@ Como no Java.[^1]
 Desde 2011 o projeto [Pypy](https://pypy.org/) oferece também um compilador JIT.
 Como no Java.[^2]
 
-O Pypy suporta até código Python 3.11,
+O Pypy roda até código Python 3.11,
 e é quase 3x mais rápido que o CPython (segundo [benchmarks](https://speed.pypy.org/)).
-Mas é menos popular porque porque é incompatível
+Mas é menos popular porque é incompatível
 com as inúmeras extensões (bibliotecas binárias) 
 escritas em C, C++, Fortran, e Rust,
 que são a razão do sucesso da linguagem Python.
@@ -48,7 +47,7 @@ JIT pode ser habilitado
 [setando uma variável de ambiente](https://docs.python.org/3.14/whatsnew/3.14.html#binary-releases-for-the-experimental-just-in-time-compiler).
 Para outras plataformas, é preciso compilar os fontes do CPython
 passando [uma opção](https://docs.python.org/3.14/using/configure.html#cmdoption-enable-experimental-jit)
-no `./configure`.
+de configuração.
 
 No Python 3.14, o desempenho do JIT experimental
 [é descrito](https://docs.python.org/3.14/whatsnew/3.14.html#binary-releases-for-the-experimental-just-in-time-compiler)
@@ -67,7 +66,7 @@ salvos em arquivos `.jar` ou `.class`.
 Para executar, usa-se outro programa: `java`.
 No Python não há essa separação: o compilador de `.py` para bytecode
 e o interpretador de bytecode estão no mesmo programa, `python3` ou `pypy3`, por exemplo.
-Os arquivos `.pyc` contém bytecode Python, mas raramente precisamos se preocupar com eles.
+Os arquivos `.pyc` contém bytecode Python, mas raramente precisamos lidar com eles.
 
 [^2]: JIT é "Just In Time", ou "na hora H" numa tradução livre.
 Enquanto o interpretador executa o bytecode,
