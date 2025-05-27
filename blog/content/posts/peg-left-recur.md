@@ -11,14 +11,17 @@ tags = ['programming languages']
 I’ve alluded to left-recursion as a stumbling block a few times, and it’s time to tackle it.
 The basic problem is that with a recursive descent parser, left-recursion causes instant death by stack overflow.
 
-[This is part 5 of my PEG series. See the 
-[Series Overview](/posts/peg-series) for the rest.]
-
 Consider this hypothetical grammar rule:
 
 ```
 expr: expr '+' term | term
 ```
+
+<!--more-->
+
+[This is part 5 of my PEG series. See the 
+[Series Overview](/posts/peg-series) for the rest.]
+
 
 If we were to naively translate this grammar fragment into a fragment of a recursive descent parser we’d get something like the following:
 
