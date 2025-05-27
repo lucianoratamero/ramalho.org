@@ -2,7 +2,7 @@
 date = '2025-04-22T22:53:17-03:00'
 draft = false
 title = 'Porque cada pessoa deve ter seu site na Web'
-tags = ['opinião']
+tags = ['opinião', 'Web']
 +++
 
 A Web (e a própria Internet) são construções maravilhosas porque têm
