@@ -52,13 +52,14 @@ no `./configure`.
 
 No Python 3.14, o desempenho do JIT experimental
 [é descrito](https://docs.python.org/3.14/whatsnew/3.14.html#binary-releases-for-the-experimental-just-in-time-compiler)
-como "10% mais lento até 20% mais rápido, dependendo da carga."
+como "desde 10% mais lento até 20% mais rápido, dependendo do que está sendo processado."
 
 Então, se o clima na imigração fosse mais relax, hoje eu responderia:
 
 — Python é compilada para um bytecode que é interpretado em tempo de execução,
 mas usando o Pypy ou o CPython 3.13 ou 3.14 você pode ter um compilador
-JIT para acelerar a execução. Então podemos dizer que Python é compilada, interpretada e compilada!
+JIT para acelerar a execução.
+Então podemos dizer que Python é compilada, interpretada e compilada!
 
 
 [^1]: O programa `javac` é o compilador que transforma código-fonte `.java` em bytecodes
