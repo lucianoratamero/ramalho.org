@@ -18,7 +18,7 @@ disparou:
 
 Pensei dois segundos e respondi "Interpretada" só para não
 alongar o papo naquele purgatório.
-Imagino que ele tenha sido adestrado para fazer perguntinhas
+Imagino que ele tenha sido adestrado a fazer perguntinhas
 para desestabilizar pessoas que podem estar mentindo.
 
 Ele me deixou entrar, mas a resposta certa é:
