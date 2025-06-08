@@ -1,6 +1,6 @@
 +++
 date = '2025-06-08T16:38:34-03:00'
-title = 'Um buscador de Emoji super simples'
+title = 'Um buscador de emoji super simples'
 toc = true
 draft = false
 tags = ['tecnologia',]
