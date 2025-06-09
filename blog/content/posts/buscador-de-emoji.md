@@ -72,13 +72,13 @@ inclusive palavras que podem aparecer entre as palavras da consulta:
 * buscando "FACE GRINNING" você encontra "GRINNING FACE" e mais 4 emojis.
 
 Outro dia uma pessoa postou no LinkedIn que se inspirou neste exemplo para criar a biblioteca
-e o utilitário de linha de comando [`charfinder`](https://pypi.org/project/charfinder/).
+e o utilitário de linha de comando [charfinder](https://pypi.org/project/charfinder/).
 
 Infelizmente, o autor do pacote não captou a ideia de usar um conjunto.
 Ele oferece 3 algoritmos de casamento aproximado de strings (_fuzzy maching_).
 Tem até um vídeo de demonstração e muitos outros recursos,
 além de estar empacotado como uma biblioteca instalável,
-enquanto o `cat.py` é apenas aquele exemplo didático de 22 linhas de código,
+enquanto o `cf.py` é apenas aquele exemplo didático de 22 linhas de código,
 sem dependências externas.
 
 Mas, se você procurar "cat eyes", o `charfinder` v. 1.0.8 não encontra nada.[^2]
