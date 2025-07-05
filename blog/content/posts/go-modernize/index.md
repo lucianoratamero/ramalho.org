@@ -52,11 +52,6 @@ go run golang.org/x/tools/gopls/internal/analysis/modernize/cmd/modernize@latest
 -fix -test ./...
 ```
 
-Depois de rodar este comando,
-fiz um commit que você pode ver aqui:
-
-https://github.com/garoago/gopl-modernized/commit/3fae409e98027a01fa851d52eedcbc99b6c6401b
-
 O pacote `modernize` serve para refatorar código
 para um estilo moderno de Go idiomático.
 A [documentação da ferramenta](https://pkg.go.dev/golang.org/x/tools/gopls/internal/analysis/modernize)
@@ -64,13 +59,22 @@ descreve 14 categorias de diagnósticos e reparos, por exemplo:
 
 * `for i := range n` em vez de `for i := 0; i < n; i++`;
 * `any` em vez de `interface{}`;
-* `min()`/`max()` em vez de `if...` para atribuir o maior/menor valor a uma variável;
+* `min()`/`max()` em vez de `if...` para atribuir o maior/menor valor a uma variável.
 
-No código do GOPL, o `modernize` arrumou exemplos somente nessas três categorias.
+No código do GOPL, o `modernize` arrumou exemplos somente nas três categorias acima.
+O caso de `min/max` representa muitas melhorias da biblioteca de Go nos últimos
+anos: essas funções não existiam antes da linguagem suportar generics.
+
+Depois das mudanças automáticas do `modernize`, abri os exemplos no Visual Code e a extensão oficial
+[golang.go](https://marketplace.visualstudio.com/items?itemName=golang.go) indicou um par de referências
+a `io/ioutil` que hoje podem ser escritas acessando `io` direto:
+
+* `io.ReadAll`
+* `io.Discard`
+
 Use a interface de visualizção do commit
 [3fae409](https://github.com/garoago/gopl-modernized/commit/3fae409e98027a01fa851d52eedcbc99b6c6401b)
-para ver as mudanças.
-Não toquei em nenhum código `.go` naquele commit, tudo feito pelo `modernize`.
+para ver todas as mudanças.
 
 Sei que há outras oportunidades de modernização dos exemplos do GOPL.
 O exemplo [IntSet](https://github.com/garoago/gopl-modernized/tree/master/ch6/intset)
